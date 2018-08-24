@@ -7,13 +7,10 @@ class ibus
 {
   public:
     ibus();
-    bool checkIbus();
-    void searchIbus();
-    void processIbusCommand(int len);
-    byte getCheckSumIbus(bool io, int len);
-    void sendIbusCommand(const byte message[], byte size);
+    byte checkIbus();
     
   private:
+  byte getCheckSumIbus(bool io, int len);
 };
 
 #endif

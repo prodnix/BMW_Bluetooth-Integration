@@ -4,34 +4,52 @@
 #define debugSerial Serial
 
 circularBuffer::circularBuffer(unsigned int size) {
-  _size = size;
-  _buffer[_size];
+  size_ = size;
+  buffer_[size_];
+  head_ = 0;
+  tail_ = 0;
 }
 
-byte circularBuffer::In(byte i) {
-  _buffer[_head] = i;
-  _head = (_head + 1) % _size;
-  return(_head);
+void circularBuffer::In(byte in) {
+  buffer_[head_] = in;
+  head_ = (head_ + 1) % size_;
 }
 
-byte circularBuffer::Out(byte o) {
-  _tail = (_tail + o) % _size;
+void circularBuffer::Out(byte out) {
+  if (tail_ == head_) {
+    debugSerial.println("Buffer Flip!");
+    tail_ = 0;
+    head_ = 0;
+  } else {
+    tail_ = (tail_ + out) % size_;
+  }
 }
 
 byte circularBuffer::Read(byte index) {
-  return(_buffer[(_tail + index) % _size]);
+  return(buffer_[(tail_ + index) % size_]);
 }
 
 byte circularBuffer::Available() {
-  byte a = _head - _tail;
-  return(a % _size);
+  byte a = head_ - tail_;
+  return(a % size_);
 }
 
 void circularBuffer::Debug() {
+  //byte *ptail_ = tail_;
   debugSerial.print("tail:");
-  debugSerial.print(_tail);
+  debugSerial.print(tail_);
+  //debugSerial.print("@");
+  //debugSerial.print(&tail_, DEC);
   debugSerial.print(" head:");
-  debugSerial.print(_head);
+  debugSerial.print(head_);
+  //debugSerial.print("@");
+  //debugSerial.print(&head_, DEC);
   debugSerial.print(" available:");
   debugSerial.println(Available());
+}
+
+void circularBuffer::Reset() {
+  head_ = 0;
+  tail_ = 0;
+  //debugSerial.println("Buffer Reset!!!");
 }
