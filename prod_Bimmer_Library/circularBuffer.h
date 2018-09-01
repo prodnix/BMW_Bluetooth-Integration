@@ -19,7 +19,7 @@ class circularBuffer
     byte head_;                             // Position of head in buffer array.
     byte tail_;                             // Position of tail in buffer array.
     unsigned int size_;                     // Size of buffer array.
-     buffer_[];                 // Contents of buffer.
+    byte buffer_[];                 // Contents of buffer.
 };
 
 #endif

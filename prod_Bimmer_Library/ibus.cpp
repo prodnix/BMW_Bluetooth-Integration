@@ -9,30 +9,35 @@
 circularBuffer IbusBuffer(256);
 
 ibus::ibus() {
+//ibusInByte[256];
 }
 
 byte ibus::checkIbus() {
   while (ibusSerial.available() > 0) {
     byte i = ibusSerial.read();
     IbusBuffer.In(i);
-    debugSerial.print("IBUS=");
-    debugSerial.print(i, HEX);
-    debugSerial.print(" : ");
-    IbusBuffer.Debug();
   }
   
   if (IbusBuffer.Available() > 4) {
+    if (IbusBuffer.Read(1) == 0) {
+      IbusBuffer.Reset();
+    }
     byte ibusLength = IbusBuffer.Read(1) + 2;
-    debugSerial.println(ibusLength);
     if (ibusLength > IbusBuffer.Available()) {
       return (0);
     }
     if (getCheckSumIbus(1, ibusLength) == IbusBuffer.Read(ibusLength - 1)) {
-      debugSerial.println(F("IBUS : Good Command"));
+      debugSerial.print("Ibus: Good Command: ");
+      //IbusBuffer.Debug();
+      for (int i = 0; i < ibusLength - 1; i++) {
+        ibusInByte[i] = IbusBuffer.Read(i);
+      }
       IbusBuffer.Out(ibusLength);
       return(ibusLength);
     } else {
-      debugSerial.println(F("IBUS : Bad Command"));
+      debugSerial.print("Ibus: Bad Command: ");
+      IbusBuffer.Debug();
+      IbusBuffer.Dump();
       IbusBuffer.Reset();
       return(0);
     }
@@ -52,3 +57,18 @@ byte ibus::getCheckSumIbus(bool io, int len) {
     
   }
 }
+
+/*void ibus::sendIbusCommand(const byte message[], byte size) {
+  byte messageNew[size];
+  //debugSerial.print("Generated : ");
+  for (int i = 0; i < size; i++) {
+    messageNew[i] = pgm_read_byte(&message[i]);
+    debugSerial.print(messageNew[i], HEX);
+    debugSerial.print(", ");
+  }
+
+  debugSerial.println("Sending Command");
+  digitalWrite(21, LOW);
+  ibusSerial.write(messageNew, size);
+}
+*/
