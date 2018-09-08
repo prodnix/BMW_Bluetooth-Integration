@@ -2,6 +2,7 @@
 #include "bm64.h"
 #include "data_store.h"
 #include "bt_commands.h"
+#include "ibus_commands.h"
 
 
 #define debugSerial Serial
@@ -16,6 +17,8 @@ const byte EANPin = 5;
 const byte btResetPin = 10;
 const byte MFBPin = 8;
 const byte ledPin = 13;
+
+byte rtCount = 0;
 
 bm64 BM64;
 ibus Ibus;
@@ -171,8 +174,27 @@ void btMessageHandler() {
   }
 }
 
-
-/*void processIbusCommand(int len) {
+void ibusMessageHandler() {
+  
+  switch (Ibus.InPacket.Source) {
+    case 0x50:
+      switch (Ibus.InPacket.Destination) {
+        case 0x68:
+          
+        break;
+      }
+    break;
+    
+    case 0x44:
+      
+    break;
+  }
+  
+  
+  
+  
+  
+  
   
   if(memcmp_P(ibusInByte, IGNITION_POS1, 6) == 0 ) {
     rtCount = 0;
@@ -243,4 +265,4 @@ void btMessageHandler() {
     //btSerial.write(PAIRING_MODE, sizeof(PAIRING_MODE));
     
   
-}*/
+}

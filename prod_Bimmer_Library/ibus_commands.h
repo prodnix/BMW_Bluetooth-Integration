@@ -3,6 +3,14 @@ const byte KEY_IN [7] PROGMEM = {
   0x44 , 0x05 , 0xBF , 0x74 , 0x04 , 0x00 , 0x8E }; // Ignition key in
 const byte KEY_OUT [7] PROGMEM = { 
   0x44 , 0x05 , 0xBF , 0x74 , 0x00 , 0xFF , 0x75 }; // Ignition key out
+  
+  
+
+
+const byte MFL_VOL_UP [6] PROGMEM = { 
+  0x50 , 0x04 , 0x68 , 0x32, 0x11 , 0x1F }; // Steering wheel Volume Up
+const byte MFL_VOL_DOWN [6] PROGMEM = { 
+  0x50 , 0x04 , 0x68 , 0x32, 0x10 , 0x1E }; // Steering wheel Volume Down
 const byte MFL_UP [6] PROGMEM = { 
   0x50 , 0x04 , 0x68 , 0x3B , 0x01 , 0x06  }; // Steering up
 const byte MFL_UP_RELEASE [6] PROGMEM = { 
@@ -11,22 +19,25 @@ const byte MFL_DOWN [6] PROGMEM = {
   0x50 , 0x04 , 0x68 , 0x3B , 0x08 , 0x0F  }; // Steering down
 const byte MFL_DOWN_RELEASE [6] PROGMEM = { 
   0x50 , 0x04 , 0x68 , 0x3B , 0x28 , 0x2F  }; // Steering down Release
-const byte MFL_VOL_UP [6] PROGMEM = { 
-  0x50 , 0x04 , 0x68 , 0x32, 0x11 , 0x1F }; // Steering wheel Volume Up
-const byte MFL_VOL_DOWN [6] PROGMEM = { 
-  0x50 , 0x04 , 0x68 , 0x32, 0x10 , 0x1E }; // Steering wheel Volume Down
+
 const byte MFL_TEL_VOL_UP [6] PROGMEM = { 
   0x50 , 0x04 , 0xC8 , 0x32, 0x11 , 0xBF }; // Steering wheel Volume Up - Telephone
 const byte MFL_TEL_VOL_DOWN [6] PROGMEM = { 
   0x50 , 0x04 , 0xC8 , 0x32, 0x10 , 0xBE }; // Steering wheel Volume Down - Telephone
-const byte MFL_SES_PRESS [6] PROGMEM = { 
-  0x50 , 0x04 , 0xB0 , 0x3B, 0x80 , 0x5F }; // Steering wheel press and hold phone button
 const byte MFL_SEND_END_PRESS [6] PROGMEM = { 
   0x50 , 0x04 , 0xC8 , 0x3B, 0x80 , 0x27 }; // Steering wheel send/end press
 const byte MFL_SEND_END_PRESS_RELEASE [6] PROGMEM = { 
   0x50 , 0x04 , 0xC8 , 0x3B, 0xA0 , 0x07 }; // Steering wheel send/end press Release
 const byte MFL_RT_PRESS [5] PROGMEM = { 
   0x50 , 0x03 , 0xC8 , 0x01, 0x9A }; // MFL R/T press
+
+const byte MFL_SES_PRESS [6] PROGMEM = { 
+  0x50 , 0x04 , 0xB0 , 0x3B, 0x80 , 0x5F }; // Steering wheel press and hold phone button
+
+  
+  
+
+
 const byte CD_STOP [7] PROGMEM = { 
   0x68 , 0x05 , 0x18 , 0x38 , 0x01 , 0x00 , 0x4C }; // CD Stop command
 const byte CD_PLAY [7] PROGMEM = { 
