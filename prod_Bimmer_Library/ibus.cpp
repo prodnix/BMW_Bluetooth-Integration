@@ -1,56 +1,58 @@
 #include "Arduino.h"
 #include "ibus.h"
-#include "circularBuffer.h"
 
 #define debugSerial Serial
-#define btSerial    Serial1
 #define ibusSerial  Serial2
 
-circularBuffer IbusBuffer(256);
-
 ibus::ibus() {
-//ibusInByte[256];
+  struct IbusPacket InPacket;
+  struct IbusPacket OutPacket;
 }
 
 byte ibus::checkIbus() {
-  while (ibusSerial.available() > 0) {
-    byte i = ibusSerial.read();
-    IbusBuffer.In(i);
-  }
-  
-  if (IbusBuffer.Available() > 4) {
-    if (IbusBuffer.Read(1) == 0) {
-      IbusBuffer.Reset();
-    }
-    byte ibusLength = IbusBuffer.Read(1) + 2;
-    if (ibusLength > IbusBuffer.Available()) {
-      return (0);
-    }
-    if (getCheckSumIbus(1, ibusLength) == IbusBuffer.Read(ibusLength - 1)) {
-      debugSerial.print("Ibus: Good Command: ");
-      //IbusBuffer.Debug();
-      for (int i = 0; i < ibusLength - 1; i++) {
-        ibusInByte[i] = IbusBuffer.Read(i);
+  if (ibusSerial.available() >= 3) {
+    InPacket.Source = ibusSerial.read();
+    //debugSerial.println(InPacket.Source, HEX);
+    InPacket.Length = ibusSerial.read() - 2;
+    //debugSerial.println(InPacket.Length, HEX);
+    InPacket.Destination = ibusSerial.read();
+    //debugSerial.println(InPacket.Destination, HEX);
+    if (ibusSerial.readBytes(InPacket.Data, InPacket.Length) == InPacket.Length) {
+      for (int i = 0; i < InPacket.Length; i++) {
+        //debugSerial.println(InPacket.Data[i], HEX);
       }
-      IbusBuffer.Out(ibusLength);
-      return(ibusLength);
+      //debugSerial.println("Ibus Message recieved");
+      while (ibusSerial.available() == 0) {
+        //debugSerial.println("No Serial data Available");
+      }
+      if (getChecksum(1) == ibusSerial.read()) {
+        
+        return(0);
+      }
+      else {
+        debugSerial.println("Ibus Bad Checksum");
+        debugSerial.print("Ibus Checksum : ");
+        debugSerial.println(getChecksum(1), HEX);
+        return(2);
+      } 
     } else {
-      debugSerial.print("Ibus: Bad Command: ");
-      IbusBuffer.Debug();
-      IbusBuffer.Dump();
-      IbusBuffer.Reset();
-      return(0);
+      debugSerial.println("Ibus Not enough Data");
+      return(2);
     }
+  } else {
+    return(1);
   }
-  return(0);
 }
 
-byte ibus::getCheckSumIbus(bool io, int len) {
+byte ibus::getChecksum(bool io) {
   if (io == 1){
-    int XOR = 0;  
-    for (int i = 0; i < len - 1; i++) 
+    int XOR = 0;
+    XOR = XOR ^ InPacket.Source;
+    XOR = XOR ^ InPacket.Length + 2;
+    XOR = XOR ^ InPacket.Destination;
+    for (int i = 0; i < InPacket.Length; i++) 
     {
-      XOR = XOR ^ IbusBuffer.Read(i);
+      XOR = XOR ^ InPacket.Data[i];
     }
     return(XOR);
   } else {

@@ -1,5 +1,7 @@
 #include "ibus.h"
 #include "bm64.h"
+#include "data_store.h"
+#include "bt_commands.h"
 
 
 #define debugSerial Serial
@@ -15,10 +17,6 @@ const byte btResetPin = 10;
 const byte MFBPin = 8;
 const byte ledPin = 13;
 
-const byte POWER_BUTTON_PRESS [7] = { 0xAA , 0x00 , 0x03 , 0x02 , 0x00 , 0x51 , 0xAA };
-  
-const byte POWER_BUTTON_RELEASE [7] = { 0xAA , 0x00 , 0x03 , 0x02 , 0x00 , 0x52 , 0xA9 };
-
 bm64 BM64;
 ibus Ibus;
 
@@ -27,7 +25,7 @@ ibus Ibus;
 
 void setup() {
   
-  debugSerial.begin(9600);
+  debugSerial.begin(115200);
   btSerial.begin(115200);
   ibusSerial.begin(9600, SERIAL_8E1);
   
@@ -54,19 +52,125 @@ void setup() {
   btSerial.write(POWER_BUTTON_RELEASE, 7);
   
   debugSerial.println("prods BMW Interface Started.");
-  delay(1000);
-  while (ibusSerial.available()) {
-    byte i = ibusSerial.read();
-  }
   
+  /*while (1) {
+    if (ibusSerial.available() > 0) {
+      debugSerial.print(ibusSerial.read(), HEX);
+      debugSerial.print(";");
+    }
+  }*/
 }
 
 //########################################################################
 
 void loop() {
-  Ibus.checkIbus();
-  BM64.checkbtSerial();
+  if (!Ibus.checkIbus()) {
+    debugSerial.println("Ibus Message Recieved!!!!!");
+  }
+  
+  if (!BM64.checkbtSerial()) {
+    btMessageHandler();
+  }
 }
+
+void btMessageHandler() {
+  switch (BM64.InPacket.Data[0]) {
+    case 0x00:
+      debugSerial.print("ACK Received : ");
+      debugSerial.println(ACK_RESPONSE[BM64.InPacket.Data[2]]);
+      break;
+
+    case 0x01:
+      debugSerial.println(BTM_STATUS[BM64.InPacket.Data[1]]);
+      switch (BM64.InPacket.Data[1]) {
+        case 0x06:
+          btSerial.write(A2DP_FULL_VOL, 11);
+          debugSerial.println("Full Volume");
+          break;
+      }
+      break;
+
+    case 0x0A:
+      debugSerial.print("Signal Strength : ");
+      debugSerial.println(BM64.InPacket.Data[2]);
+      break;
+
+    case 0x1C:
+      debugSerial.println(AT_CMD_RSP[BM64.InPacket.Data[2]]);
+      break;
+
+    case 0x22:
+      debugSerial.println("Mobile Serial Received");
+      break;
+
+    case 0x0D:
+      debugSerial.println(CHARGING_STATUS[BM64.InPacket.Data[1]]);
+      break;
+    
+    case 0x2D:
+      debugSerial.print(SAMPLE_RATE[BM64.InPacket.Data[1]]);
+      debugSerial.print(" Sample Rate, ");
+      debugSerial.println(SAMPLE_RATE_MODE[BM64.InPacket.Data[2]]);
+      break;
+
+    case 0x18:
+      debugSerial.print("Version Reported : ");
+      debugSerial.print(BM64.InPacket.Data[2]);
+      debugSerial.print(".");
+      debugSerial.println(BM64.InPacket.Data[3]);
+      break;
+
+    case 0x1A:
+      break;
+
+    case 0x1B:
+      switch(BM64.InPacket.Data[1]) {
+        case 0x00:
+          if (BM64.InPacket.Data[2] != 1) {
+            debugSerial.println("Mute or switch off amp.");
+          } else {
+            debugSerial.println("Unmute or switch on amp.");
+          }
+          break;
+        case 0x01:
+          debugSerial.println(AUX_LINE_DETECT[BM64.InPacket.Data[2]]);
+          break;
+        case 0x02:
+          if (BM64.InPacket.Data[2] != 1) {
+            debugSerial.println("BTM FW Update");
+          } else {
+            debugSerial.println("MCU FW Update");
+          }
+          break;
+        case 0x03:
+          debugSerial.println("EEPROM Update Successful");
+          break;
+        case 0x04:
+          if (BM64.InPacket.Data[2] != 1) {
+            debugSerial.println("A2DP Stop");
+          } else {
+            debugSerial.println("A2DP Start");
+          }
+          break;
+        case 0x06:
+          if (BM64.InPacket.Data[2] != 1) {
+            debugSerial.println("Volume Up");
+          } else {
+            debugSerial.println("Volume Down");
+          }
+          break;
+      }
+      break;
+
+    default:
+      for (int i = 0; i < BM64.InPacket.Length; i++) {
+        debugSerial.print(BM64.InPacket.Data[i], HEX);
+        debugSerial.print(", ");
+      }
+      debugSerial.println();
+  }
+}
+
 
 /*void processIbusCommand(int len) {
   
