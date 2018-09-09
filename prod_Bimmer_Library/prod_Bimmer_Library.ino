@@ -245,10 +245,12 @@ void ibusMessageHandler() {
             btSerial.write(DISCONNECT, sizeof(DISCONNECT));
           } else {
             debugSerial.print("Key In? :");
-            for (int i = 0; i < sizeof(Ibus.InPacket.Data); i++) {
-              debugSerial.print(Ibus.InPacket.Data[i]);
+            btSerial.write(PAIR_LAST_DEVICE, sizeof(PAIR_LAST_DEVICE));
+            for (int i = 0; i < Ibus.InPacket.Length; i++) {
+              debugSerial.print(Ibus.InPacket.Data[i], HEX);
               debugSerial.print(":");
             }
+            debugSerial.println();
           }
         } else {
           if (Ibus.InPacket.Data[1] == 0x00) {
@@ -256,7 +258,6 @@ void ibusMessageHandler() {
           } else if (Ibus.InPacket.Data[1] == 0x01){
             rtCount = 0;
             debugSerial.println(F("Ignition 1"));
-            btSerial.write(PAIR_LAST_DEVICE, sizeof(PAIR_LAST_DEVICE));
           } else {
 
           }

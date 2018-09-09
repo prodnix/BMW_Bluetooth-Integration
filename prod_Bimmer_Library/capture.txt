@@ -1,0 +1,198 @@
+23, 1, 1, 
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+Key Out
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+Key Out
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+Key Out
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:4:4:
+ACK Received : Command complete
+Key Out
+ACK Received : Command complete
+23, 0, FF, 
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+A2DP Link Established
+Full Volume
+ACK Received : Command complete
+8KHz Sample Rate, Voice Prompt
+Key In? :74:5:4:
+ACK Received : Command complete
+17, 0, 6, 0, 
+23, 1, 1, 
+24, 1B, 0, 
+AVRCP link established
+17, 0, 3, 2, 
+8KHz Sample Rate, Voice Prompt
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+R/T Pressed
+ACK Received : Command complete
+R/T Pressed
+ACK Received : Command complete
+R/T Pressed
+ACK Received : Command complete
+R/T Pressed
+ACK Received : Command complete
+R/T Pressed
+ACK Received : Command complete
+Key In? :74:1:FF:
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:5:4:
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 1, 1, 
+Key Out
+ACK Received : Command complete
+AVRCP link disconnected
+A2DP Link disconnected
+Standard_SPP / iAP disconnected
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+Key In? :74:5:4:
+ACK Received : Command complete
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+R/T Pressed
+ACK Received : Command disallow
+A2DP Link Established
+Full Volume
+ACK Received : Command complete
+17, 0, 6, 0, 
+AVRCP link established
+17, 0, 3, 2, 
+R/T Pressed
+ACK Received : Command complete
+Key In? :74:1:4:
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:5:4:
+ACK Received : Command complete
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+Charging
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 1, 1, 
+Charging Failed
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+Key In? :74:5:4:
+ACK Received : Command complete
+23, 1, 1, 
+Charging
+R/T Pressed
+ACK Received : Command complete
+Charging Failed
+R/T Pressed
+ACK Received : Command complete
+R/T Pressed
+ACK Received : Command complete
+Key In? :74:1:FF:
+ACK Received : Command complete
+23, 1, 1, 
+Charging
+Key In? :74:5:4:
+ACK Received : Command complete
+Charging Failed
+23, 1, 1, 
+Key In? :74:1:FF:
+ACK Received : Command complete
+23, 1, 1, 
+Charging
+Key Out
+ACK Received : Command complete
+AVRCP link disconnected
+A2DP Link disconnected
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 1, 1, 
+Standard_SPP / iAP disconnected
+Key Out
+ACK Received : Command complete
+Charging Failed
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+Key Out
+ACK Received : Command complete
+23, 1, 1, 
+Key In? :74:4:4:
+ACK Received : Command complete
+23, 0, 10, 
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+Key Out
+ACK Received : Command complete
+HF Link disconnected
+Standby state
+A2DP Link Established
+Full Volume
+ACK Received : Command complete
+17, 0, 6, 0, 
+AVRCP link established
+17, 0, 3, 2, 
+9, 0, 5, 
+6, 0, 5, 
+Signal Strength : 4
+8, 0, 0, 
+7, 0, 3, 
+B, 0, 1, 
+HS/HF Link Established
+F, 0, 9, 
+
