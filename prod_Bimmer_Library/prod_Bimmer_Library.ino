@@ -44,11 +44,11 @@ void setup() {
   digitalWrite(MFBPin, HIGH);
   digitalWrite(P2_0Pin, HIGH);
   digitalWrite(EANPin, LOW);
-  digitalWrite(P1_5, 1);
-  digitalWrite(P3_6, 0);
-  digitalWrite(ledPin, 0);
+  digitalWrite(P1_5, HIGH);
+  digitalWrite(P3_6, LOW);
+  digitalWrite(ledPin,LOW);
 
-  delay(100);
+  delay(1000);
 
   btSerial.write(POWER_BUTTON_PRESS, 7);
   delay(250);
@@ -68,7 +68,7 @@ void setup() {
 
 void loop() {
   if (!Ibus.checkIbus()) {
-    debugSerial.println("Ibus Message Recieved!!!!!");
+    ibusMessageHandler();
   }
 
   if (!BM64.checkbtSerial()) {
@@ -177,11 +177,11 @@ void btMessageHandler() {
 void ibusMessageHandler() {
 
   switch (Ibus.InPacket.Source) {
-    case 0x50:
+    case 0x50: // ####################################### Source = MFL
       switch (Ibus.InPacket.Destination) {
         case 0x68:
-          if (Ibus.Inpacket.Data[0] == 0x3B) {
-            switch (Ibus.InPacket.Data[]) {
+          if (Ibus.InPacket.Data[0] == 0x3B) {
+            switch (Ibus.InPacket.Data[1]) {
               case 0x01:
               debugSerial.println(F("MFL Up Pressed"));
               btSerial.write(NEXT_SONG, sizeof(NEXT_SONG));
@@ -222,7 +222,7 @@ void ibusMessageHandler() {
 
               }
             break;
-            case 0x3B
+            case 0x3B:
             if (Ibus.InPacket.Data[1] == 0x80) {
               debugSerial.println(F("MFL Voice Pressed"));
               btSerial.write(ASSISTANT, sizeof(ASSISTANT));
@@ -237,14 +237,18 @@ void ibusMessageHandler() {
         break;
       }
     break;
-    case 0x44:
+    case 0x44: //  ############################### Source Keys
       if (Ibus.InPacket.Destination == 0xBF) {
         if (Ibus.InPacket.Data[0] == 0x74) {
-          if (Ibus.InPacket.Data[1] == 0x04) {
-            debugSerial.println(F("Key In"));
-          } else {
+          if (Ibus.InPacket.Data[1] == 0x00) {
             debugSerial.println(F("Key Out"));
             btSerial.write(DISCONNECT, sizeof(DISCONNECT));
+          } else {
+            debugSerial.print("Key In? :");
+            for (int i = 0; i < sizeof(Ibus.InPacket.Data); i++) {
+              debugSerial.print(Ibus.InPacket.Data[i]);
+              debugSerial.print(":");
+            }
           }
         } else {
           if (Ibus.InPacket.Data[1] == 0x00) {
