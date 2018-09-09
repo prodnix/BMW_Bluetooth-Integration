@@ -290,9 +290,9 @@ void ibusMessageHandler() {
 
 void ibusDump() {
   debugSerial.print("Source:");
-  debugSerial.print(Ibus.InPacket.Source);
+  debugSerial.print(Ibus.InPacket.Source, HEX);
   debugSerial.print(" Destination:");
-  debugSerial.print(Ibus.InPacket.Destination);
+  debugSerial.print(Ibus.InPacket.Destination, HEX);
   debugSerial.print("  Data:");
   for (int i = 0; i < Ibus.InPacket.Length; i++) {
     debugSerial.print(Ibus.InPacket.Data[i], HEX);

@@ -12,18 +12,10 @@ ibus::ibus() {
 byte ibus::checkIbus() {
   if (ibusSerial.available() >= 3) {
     InPacket.Source = ibusSerial.read();
-    //debugSerial.println(InPacket.Source, HEX);
     InPacket.Length = ibusSerial.read() - 2;
-    //debugSerial.println(InPacket.Length, HEX);
     InPacket.Destination = ibusSerial.read();
-    //debugSerial.println(InPacket.Destination, HEX);
     if (ibusSerial.readBytes(InPacket.Data, InPacket.Length) == InPacket.Length) {
-      for (int i = 0; i < InPacket.Length; i++) {
-        //debugSerial.println(InPacket.Data[i], HEX);
-      }
-      //debugSerial.println("Ibus Message recieved");
       while (ibusSerial.available() == 0) {
-        //debugSerial.println("No Serial data Available");
       }
       InPacket.Checksum = ibusSerial.read();
       if (getChecksum(1) == InPacket.Checksum) {
@@ -59,18 +51,3 @@ byte ibus::getChecksum(bool io) {
 
   }
 }
-
-/*void ibus::sendIbusCommand(const byte message[], byte size) {
-  byte messageNew[size];
-  //debugSerial.print("Generated : ");
-  for (int i = 0; i < size; i++) {
-    messageNew[i] = pgm_read_byte(&message[i]);
-    debugSerial.print(messageNew[i], HEX);
-    debugSerial.print(", ");
-  }
-
-  debugSerial.println("Sending Command");
-  digitalWrite(21, LOW);
-  ibusSerial.write(messageNew, size);
-}
-*/
