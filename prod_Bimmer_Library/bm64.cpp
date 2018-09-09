@@ -22,7 +22,8 @@ byte bm64::checkbtSerial() {
         while (btSerial.available() == 0) {
           //debugSerial.println("No Serial data Available");
         }
-        if (getChecksum(1) == btSerial.read()) {
+        InPacket.Checksum = btSerial.read();
+        if (getChecksum(1) == InPacket.Checksum) {
           if (InPacket.Data[0] != 0x00) {
             sendACK(InPacket.Data[0]);
           }
@@ -56,14 +57,14 @@ byte bm64::checkbtSerial() {
 
 byte bm64::getChecksum(bool io) {
   if (io == 1){
-    byte SUM = InPacket.Length;  
+    byte SUM = InPacket.Length;
     for (int i = 0 ; i < InPacket.Length; i++) {
-      SUM = SUM + InPacket.Data[i]; 
+      SUM = SUM + InPacket.Data[i];
     }
     byte flip = ~SUM;
     return(flip + 1);
   } else {
-    
+
   }
 }
 

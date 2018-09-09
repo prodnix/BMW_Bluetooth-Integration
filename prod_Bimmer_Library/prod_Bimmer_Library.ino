@@ -237,37 +237,66 @@ void ibusMessageHandler() {
         break;
       }
     break;
-    case 0x44: //  ############################### Source Keys
+    case 0x44: // ####################################### Source = Keys
       if (Ibus.InPacket.Destination == 0xBF) {
-        if (Ibus.InPacket.Data[0] == 0x74) {
-          if (Ibus.InPacket.Data[1] == 0x00) {
+        switch (Ibus.InPacket.Data[0]) {
+          case 0x74:
+          if (Ibus.InPacket.Data[1] == 0x00 && Ibus.InPacket.Data[2] == 0xFF) {
             debugSerial.println(F("Key Out"));
             btSerial.write(DISCONNECT, sizeof(DISCONNECT));
-          } else {
-            debugSerial.print("Key In? :");
-            btSerial.write(PAIR_LAST_DEVICE, sizeof(PAIR_LAST_DEVICE));
-            for (int i = 0; i < Ibus.InPacket.Length; i++) {
-              debugSerial.print(Ibus.InPacket.Data[i], HEX);
-              debugSerial.print(":");
-            }
-            debugSerial.println();
           }
-        } else {
-          if (Ibus.InPacket.Data[1] == 0x00) {
-
-          } else if (Ibus.InPacket.Data[1] == 0x01){
-            rtCount = 0;
-            debugSerial.println(F("Ignition 1"));
-          } else {
-
+          else if (Ibus.InPacket.Data[1] == 0x04 && Ibus.InPacket.Data[2] == 0x04){
+            debugSerial.println("Key In");
+            btSerial.write(PAIR_LAST_DEVICE, sizeof(PAIR_LAST_DEVICE));
+          }
+          else {
+            debugSerial.print("Unknown Key In/Out Command : ");
+            ibusDump();
           }
         }
+      } else {
+        debugSerial.print("Unknown Command  : ");
+        ibusDump();
       }
     break;
-    case 0x80:
-    if (Ibus.InPacket.Destination == 0xBF) {
-
-    }
+    case 0x80: // ####################################### Source = Ignition
+      if (Ibus.InPacket.Destination == 0xBF) {
+        switch (Ibus.InPacket.Data[0]) {
+          case 0x11:
+            switch (Ibus.InPacket.Data[1]) {
+              case 0x00:  // Ignition Off
+              break;
+              case 0x01:  // Ignition pos1
+                rtCount = 0;
+              break;
+              case 0x04:  // Ignition pos2
+              break;
+              default:
+                debugSerial.print("Unknown Ignition Command : ");
+                ibusDump();
+            }
+        }
+      } else {
+        debugSerial.print("Unknown Command  : ");
+        ibusDump();
+      }
     break;
+
+    default:
+      debugSerial.print("Disregarded Message :");
+      ibusDump();
   }
+}
+
+void ibusDump() {
+  debugSerial.print("Source:");
+  debugSerial.print(Ibus.InPacket.Source);
+  debugSerial.print(" Destination:");
+  debugSerial.print(Ibus.InPacket.Destination);
+  debugSerial.print("  Data:");
+  for (int i = 0; i < Ibus.InPacket.Length; i++) {
+    debugSerial.print(Ibus.InPacket.Data[i], HEX);
+    debugSerial.print(":");
+  }
+  debugSerial.println();
 }
