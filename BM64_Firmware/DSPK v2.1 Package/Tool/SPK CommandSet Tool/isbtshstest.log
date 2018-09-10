@@ -1,0 +1,4308 @@
+18:29:21:487	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+18:29:21:487	> Event: AA 00 03 30 00 00 CD 
+18:29:21:491	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:29:21:491	> Event: AA 00 03 2D 00 01 CF 
+18:29:21:565	< Command: AA 00 02 14 0D DD 
+18:29:21:569	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+18:29:21:569	> Event: AA 00 03 0D 01 00 EF 
+18:29:45:884	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+18:29:45:900	> Event: AA 00 03 00 02 00 FB 
+18:29:58:531	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+18:29:58:598	> Event: AA 00 03 00 02 00 FB 
+18:29:58:607	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+18:29:58:607	> Event: AA 00 03 0E 00 00 EF 
+18:29:58:619	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+18:29:58:620	> Event: AA 00 03 01 0F 00 ED 
+18:29:59:599	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+18:29:59:615	> Event: AA 00 03 00 02 00 FB 
+18:29:59:615	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:29:59:615	> Event: AA 00 03 2D 00 07 C9 
+18:30:00:552	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+18:30:00:552	> Event: AA 00 03 01 01 00 FB 
+18:30:00:663	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+18:30:00:664	> Event: AA 00 03 01 0F 00 ED 
+18:30:04:702	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+18:30:04:702	> Event: AA 00 03 01 03 00 F9 
+18:30:04:838	< Command: AA 00 02 14 01 E9 
+18:30:04:838	< Command: AA 00 03 16 00 00 E7 
+18:30:04:838	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+18:30:04:838	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+18:30:04:866	> Event: AA 00 03 00 16 00 E7 
+18:30:04:866	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:30:04:874	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:30:05:276	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+18:30:05:276	> Event: AA 00 03 09 00 05 EF 
+18:30:05:288	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+18:30:05:288	> Event: AA 00 03 06 00 05 F2 
+18:30:05:292	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:30:05:292	> Event: AA 00 03 0A 00 03 F0 
+18:30:05:296	< Command: AA 00 02 14 08 E2 
+No Roaming.
+18:30:05:296	> Event: AA 00 03 08 00 00 F5 
+18:30:05:305	< Command: AA 00 02 14 07 E3 
+Battery is high.
+18:30:05:307	> Event: AA 00 03 07 00 03 F3 
+18:30:05:309	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+18:30:05:309	> Event: AA 00 03 0B 00 01 F1 
+18:30:05:354	< Command: AA 00 02 14 01 E9 
+18:30:05:354	< Command: AA 00 03 16 00 00 E7 
+18:30:05:354	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+18:30:05:354	> Event: AA 00 03 01 05 00 F7 
+Command Complete.
+18:30:05:362	> Event: AA 00 03 00 16 00 E7 
+18:30:05:362	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+18:30:05:362	> Event: AA 00 03 0F 00 0C E2 
+18:30:05:399	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:30:05:406	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:30:07:046	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+18:30:07:046	> Event: AA 00 03 01 0B 00 F1 
+18:30:07:074	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:30:07:074	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+18:30:07:103	< Command: AA 00 02 14 17 D3 
+18:38:19:329	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:38:19:329	> Event: AA 00 03 0A 00 04 EF 
+18:38:19:350	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:38:19:350	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+18:38:19:411	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:38:19:411	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+18:38:21:426	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:38:21:427	> Event: AA 00 03 0A 00 03 F0 
+18:38:22:434	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:38:22:434	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+18:38:22:491	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:38:22:491	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+18:38:26:559	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:38:26:559	> Event: AA 00 03 0A 00 04 EF 
+18:40:10:066	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+18:40:10:067	> Event: AA 00 03 30 00 00 CD 
+18:40:10:071	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:40:10:071	> Event: AA 00 03 2D 00 01 CF 
+18:40:10:140	< Command: AA 00 02 14 0D DD 
+18:40:10:144	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+18:40:10:145	> Event: AA 00 03 0D 01 00 EF 
+18:40:47:736	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+18:40:47:736	> Event: AA 00 03 30 00 00 CD 
+18:40:47:740	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:40:47:740	> Event: AA 00 03 2D 00 01 CF 
+18:40:47:810	< Command: AA 00 02 14 0D DD 
+18:40:47:814	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+18:40:47:814	> Event: AA 00 03 0D 01 00 EF 
+18:41:02:917	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+18:41:02:917	> Event: AA 00 03 30 00 00 CD 
+18:41:02:921	< Command: AA 00 02 14 2D BD 
+18:41:02:925	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+18:41:02:925	> Event: AA 00 03 0D 01 00 EF 
+18:41:03:032	< Command: AA 00 02 14 0D DD 
+18:41:06:517	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+18:41:06:517	> Event: AA 00 03 0D 03 00 ED 
+18:41:52:003	< Command: AA 00 02 14 01 E9 
+Power on device.
+18:41:52:003	> Event: AA 00 03 01 02 00 FA 
+18:41:52:006	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+18:41:52:011	> Event: AA 00 03 01 0F 00 ED 
+18:41:52:011	< Command: AA 00 02 14 23 C7 
+
+18:41:52:011	> Event: AA 00 03 23 00 00 DA 
+18:41:52:014	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:41:52:014	> Event: AA 00 03 2D 00 01 CF 
+18:41:52:019	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+18:41:52:019	> Event: AA 00 03 0D 01 00 EF 
+18:41:52:133	< Command: AA 00 02 14 0D DD 
+18:41:52:453	< Command: AA 00 02 14 24 C6 
+
+18:41:52:453	> Event: AA 00 03 24 1E 00 BB 
+18:41:53:206	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.7v to 3.8v[BTM]
+18:41:53:207	> Event: AA 00 03 0C 05 07 E5 
+18:41:56:807	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.8v to 3.9v[BTM]
+18:41:56:807	> Event: AA 00 03 0C 05 08 E4 
+18:42:18:843	< Command: AA 00 0C 05 70 72 6F 64 2D 42 69 6D 6D 65 72 B1 
+Command Complete.
+18:42:18:861	> Event: AA 00 03 00 05 00 F8 
+18:42:22:195	< Command: AA 00 02 14 23 C7 
+
+18:42:22:195	> Event: AA 00 03 23 01 01 D8 
+18:42:55:777	< Command: AA 00 0C 05 70 72 6F 64 2D 42 69 6D 6D 65 72 B1 
+Command Complete.
+18:42:55:793	> Event: AA 00 03 00 05 00 F8 
+18:43:17:916	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+18:43:18:204	> Event: AA 00 03 00 02 00 FB 
+18:43:18:245	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+18:43:18:245	> Event: AA 00 03 0E 00 00 EF 
+18:43:21:097	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+18:43:21:112	> Event: AA 00 03 00 02 00 FB 
+18:43:22:050	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+18:43:22:050	> Event: AA 00 03 01 01 00 FB 
+18:43:22:054	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:43:22:054	> Event: AA 00 03 2D 00 07 C9 
+18:43:22:353	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+18:43:22:353	> Event: AA 00 03 32 01 00 CA 
+18:43:22:382	< Command: AA 00 02 14 24 C6 
+
+18:43:22:382	> Event: AA 00 03 24 1D 00 BC 
+18:43:26:540	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+18:43:26:541	> Event: AA 00 03 01 0F 00 ED 
+18:43:28:035	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+18:43:28:035	> Event: AA 00 03 01 03 00 F9 
+18:43:28:055	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:43:28:055	> Event: AA 00 03 2D 00 07 C9 
+18:43:28:338	< Command: AA 00 02 14 24 C6 
+
+18:43:28:338	> Event: AA 00 03 24 02 00 D7 
+18:43:28:670	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+18:43:28:670	> Event: AA 00 03 09 00 05 EF 
+18:43:28:678	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+18:43:28:678	> Event: AA 00 03 06 00 05 F2 
+18:43:28:682	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:43:28:683	> Event: AA 00 03 0A 00 04 EF 
+18:43:28:686	< Command: AA 00 02 14 08 E2 
+No Roaming.
+18:43:28:686	> Event: AA 00 03 08 00 00 F5 
+18:43:28:695	< Command: AA 00 02 14 07 E3 
+Battery is high.
+18:43:28:695	> Event: AA 00 03 07 00 03 F3 
+18:43:28:703	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+18:43:28:703	> Event: AA 00 03 0B 00 01 F1 
+18:43:28:760	< Command: AA 00 02 14 01 E9 
+18:43:28:761	< Command: AA 00 03 16 00 00 E7 
+18:43:28:761	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+18:43:28:761	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+18:43:28:789	> Event: AA 00 03 00 16 00 E7 
+18:43:28:793	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+18:43:28:793	> Event: AA 00 03 0F 00 0C E2 
+18:43:28:797	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:43:28:797	> Event: AA 00 03 0A 00 03 F0 
+18:43:28:837	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:43:28:844	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:43:28:923	< Command: AA 00 02 14 01 E9 
+18:43:28:924	< Command: AA 00 03 16 00 00 E7 
+18:43:28:924	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+18:43:28:924	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+18:43:28:956	> Event: AA 00 03 00 16 00 E7 
+18:43:28:956	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:43:28:956	> Event: AA 00 03 2D 00 07 C9 
+18:43:28:989	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:43:28:992	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:43:29:009	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+18:43:29:009	> Event: AA 00 04 17 00 06 00 DF 
+18:43:29:255	< Command: AA 00 02 14 24 C6 
+
+18:43:29:255	> Event: AA 00 03 24 1B 00 BE 
+18:43:31:344	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+18:43:31:344	> Event: AA 00 03 01 0B 00 F1 
+18:43:31:357	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:43:31:357	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+18:43:31:394	< Command: AA 00 02 14 17 D3 
+18:43:31:455	< Command: AA 00 02 14 29 C1 
+18:43:44:074	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+18:43:44:096	> Event: AA 00 03 00 02 00 FB 
+18:43:44:096	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+18:43:44:096	> Event: AA 00 03 01 00 00 FC 
+18:43:44:100	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+18:43:44:100	> Event: AA 00 03 32 01 00 CA 
+18:43:44:104	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:43:44:104	> Event: AA 00 03 2D 00 07 C9 
+18:43:44:175	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+18:43:45:386	> Event: AA 00 03 00 02 00 FB 
+18:43:45:394	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+18:43:45:394	> Event: AA 00 03 01 0C 00 F0 
+18:43:45:415	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+18:43:45:417	> Event: AA 00 03 01 07 00 F5 
+18:43:45:431	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+18:43:45:431	> Event: AA 00 03 01 08 00 F4 
+18:43:45:464	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+18:43:45:464	> Event: AA 00 03 1B 03 00 DF 
+18:43:51:730	< Command: AA 00 03 02 00 51 AA 
+18:43:51:730	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+18:43:51:744	> Event: AA 00 03 00 02 00 FB 
+18:43:51:748	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:43:51:748	> Event: AA 00 03 2D 00 07 C9 
+18:43:51:752	< Command: AA 00 02 14 01 E9 
+Power on device.
+18:43:51:752	> Event: AA 00 03 01 02 00 FA 
+18:43:51:756	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+18:43:51:757	> Event: AA 00 03 01 0F 00 ED 
+18:43:52:985	< Command: AA 00 02 14 23 C7 
+
+18:43:52:985	> Event: AA 00 03 23 00 00 DA 
+18:43:54:149	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+18:43:54:149	> Event: AA 00 03 09 00 05 EF 
+18:43:54:153	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+18:43:54:153	> Event: AA 00 03 06 00 05 F2 
+18:43:54:157	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:43:54:159	> Event: AA 00 03 0A 00 03 F0 
+18:43:54:177	< Command: AA 00 02 14 08 E2 
+No Roaming.
+18:43:54:177	> Event: AA 00 03 08 00 00 F5 
+18:43:54:194	< Command: AA 00 02 14 07 E3 
+Battery is high.
+18:43:54:194	> Event: AA 00 03 07 00 03 F3 
+18:43:54:210	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+18:43:54:210	> Event: AA 00 03 0B 00 01 F1 
+18:43:54:214	< Command: AA 00 02 14 01 E9 
+18:43:54:215	< Command: AA 00 03 16 00 00 E7 
+18:43:54:215	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+18:43:54:215	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+18:43:54:222	> Event: AA 00 03 00 16 00 E7 
+18:43:54:222	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+18:43:54:222	> Event: AA 00 03 0F 00 0C E2 
+18:43:54:231	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:43:54:238	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:43:55:012	< Command: AA 00 02 14 01 E9 
+18:43:55:013	< Command: AA 00 03 16 00 00 E7 
+18:43:55:013	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+18:43:55:013	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+18:43:56:250	> Event: AA 00 03 00 16 00 E7 
+18:43:56:254	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:43:56:254	> Event: AA 00 03 2D 00 07 C9 
+18:43:56:262	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:43:56:266	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:43:56:340	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+18:43:56:340	> Event: AA 00 04 17 00 06 00 DF 
+18:43:57:577	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+18:43:57:577	> Event: AA 00 03 01 0B 00 F1 
+18:43:57:585	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:43:57:585	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+18:43:57:626	< Command: AA 00 02 14 17 D3 
+18:44:45:968	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:44:45:982	> Event: AA 00 03 00 16 00 E7 
+18:44:45:982	< Command: AA 00 02 14 17 D3 
+18:44:45:990	< Command: AA 00 03 16 00 05 E2 
+18:44:45:990	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 7[BTM]
+18:44:45:990	> Event: AA 00 04 17 00 04 C7 1A 
+Command Complete.
+18:44:46:003	> Event: AA 00 03 00 16 00 E7 
+18:44:46:007	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 0[BTM]
+18:44:46:010	> Event: AA 00 04 17 00 05 00 E0 
+18:46:26:473	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:26:473	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:26:474	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:26:492	> Event: AA 00 03 00 23 00 DA 
+18:46:26:834	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:26:835	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:26:836	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:26:848	> Event: AA 00 03 00 23 00 DA 
+18:46:27:361	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:27:362	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:27:363	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:27:377	> Event: AA 00 03 00 23 00 DA 
+18:46:27:830	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:27:830	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:27:832	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:27:844	> Event: AA 00 03 00 23 00 DA 
+18:46:27:848	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:27:848	> Event: AA 00 03 2D 00 07 C9 
+18:46:28:526	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:28:527	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:28:528	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:29:142	> Event: AA 00 03 00 23 00 DA 
+18:46:29:186	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:46:29:200	> Event: AA 00 03 00 16 00 E7 
+18:46:29:204	< Command: AA 00 02 14 17 D3 
+18:46:29:207	< Command: AA 00 03 16 00 05 E2 
+18:46:29:207	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 12[BTM]
+18:46:29:207	> Event: AA 00 04 17 00 04 FC E5 
+Command Complete.
+18:46:29:220	> Event: AA 00 03 00 16 00 E7 
+18:46:29:224	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 5[BTM]
+18:46:29:225	> Event: AA 00 04 17 00 05 05 DB 
+18:46:29:937	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:29:937	> Event: AA 00 03 2D 00 07 C9 
+18:46:30:758	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:30:759	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:30:760	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:31:224	> Event: AA 00 03 00 23 00 DA 
+18:46:31:670	< Command: AA 00 03 16 00 04 E3 
+18:46:31:691	< Command: AA 00 03 16 00 05 E2 
+Command Complete.
+18:46:31:822	> Event: AA 00 03 00 16 00 E7 
+18:46:31:826	< Command: AA 00 02 14 17 D3 
+Voice Gain Level : 15[BTM]Audio Gain Level : 13[BTM]
+18:46:31:826	> Event: AA 00 04 17 00 04 FD E4 
+18:46:31:830	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 6[BTM]
+18:46:31:830	> Event: AA 00 04 17 00 05 06 DA 
+18:46:32:022	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:32:022	> Event: AA 00 03 2D 00 07 C9 
+18:46:35:570	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:46:35:570	> Event: AA 00 03 0A 00 04 EF 
+18:46:38:918	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:38:919	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:38:920	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:38:932	> Event: AA 00 03 00 23 00 DA 
+18:46:38:937	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:38:937	> Event: AA 00 03 2D 00 07 C9 
+18:46:39:110	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:39:111	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:39:112	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+18:46:39:290	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:39:291	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:39:292	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+18:46:39:470	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:39:471	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:39:472	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+18:46:39:601	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:39:602	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:39:603	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:40:186	> Event: AA 00 03 00 23 00 DA 
+Command Complete.
+18:46:40:186	> Event: AA 00 03 00 23 00 DA 
+Command Complete.
+18:46:40:186	> Event: AA 00 03 00 23 00 DA 
+18:46:40:479	< Command: AA 00 03 16 00 04 E3 
+18:46:40:500	< Command: AA 00 03 16 00 05 E2 
+Command Complete.
+18:46:40:772	> Event: AA 00 03 00 16 00 E7 
+18:46:40:772	< Command: AA 00 02 14 17 D3 
+Voice Gain Level : 15[BTM]Audio Gain Level : 15[BTM]
+18:46:40:772	> Event: AA 00 04 17 00 04 FF E2 
+18:46:40:776	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 11[BTM]
+18:46:40:777	> Event: AA 00 04 17 00 05 0B D5 
+18:46:40:973	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:40:973	> Event: AA 00 03 2D 00 07 C9 
+18:46:42:263	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:46:42:263	> Event: AA 00 03 0A 00 03 F0 
+18:46:42:481	< Command: AA 00 03 16 00 04 E3 
+18:46:42:502	< Command: AA 00 03 16 00 05 E2 
+Command Complete.
+18:46:42:853	> Event: AA 00 03 00 16 00 E7 
+18:46:42:853	< Command: AA 00 02 14 17 D3 
+Voice Gain Level : 15[BTM]Audio Gain Level : 15[BTM]
+18:46:42:853	> Event: AA 00 04 17 00 04 FF E2 
+18:46:42:857	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 11[BTM]
+18:46:42:857	> Event: AA 00 04 17 00 05 0B D5 
+18:46:43:053	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:43:053	> Event: AA 00 03 2D 00 07 C9 
+18:46:45:154	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:45:154	> Event: AA 00 03 2D 00 07 C9 
+18:46:47:235	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:47:235	> Event: AA 00 03 2D 00 07 C9 
+18:46:48:577	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:48:577	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:48:578	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:49:083	> Event: AA 00 03 00 23 00 DA 
+18:46:49:141	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:49:142	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:49:143	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:49:156	> Event: AA 00 03 00 23 00 DA 
+18:46:49:345	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:49:346	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:49:347	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:49:361	> Event: AA 00 03 00 23 00 DA 
+18:46:49:537	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:49:538	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:49:539	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:49:554	> Event: AA 00 03 00 23 00 DA 
+18:46:49:717	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:49:718	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:49:719	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:49:734	> Event: AA 00 03 00 23 00 DA 
+18:46:50:581	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:50:581	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:50:582	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:50:598	> Event: AA 00 03 00 23 00 DA 
+18:46:50:785	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:50:785	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:50:786	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:50:803	> Event: AA 00 03 00 23 00 DA 
+18:46:51:001	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:51:002	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:51:003	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:51:016	> Event: AA 00 03 00 23 00 DA 
+18:46:51:205	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:46:51:206	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:46:51:207	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:46:51:221	> Event: AA 00 03 00 23 00 DA 
+18:46:52:836	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:52:837	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:52:838	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:52:851	> Event: AA 00 03 00 23 00 DA 
+18:46:53:017	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:53:018	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:53:019	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:53:036	> Event: AA 00 03 00 23 00 DA 
+18:46:53:221	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:53:222	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:53:223	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:53:241	> Event: AA 00 03 00 23 00 DA 
+18:46:53:413	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:53:414	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:53:415	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:53:429	> Event: AA 00 03 00 23 00 DA 
+18:46:53:628	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:53:629	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:53:630	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:53:646	> Event: AA 00 03 00 23 00 DA 
+18:46:53:821	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:53:821	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:53:822	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:53:838	> Event: AA 00 03 00 23 00 DA 
+18:46:54:001	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:54:001	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:54:002	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:54:018	> Event: AA 00 03 00 23 00 DA 
+18:46:54:193	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:54:193	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:54:194	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:54:211	> Event: AA 00 03 00 23 00 DA 
+18:46:54:385	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:54:386	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:54:386	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:54:404	> Event: AA 00 03 00 23 00 DA 
+18:46:54:565	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:54:566	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:54:567	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:54:580	> Event: AA 00 03 00 23 00 DA 
+18:46:54:584	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:54:584	> Event: AA 00 03 2D 00 07 C9 
+18:46:54:757	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:54:758	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:54:759	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+18:46:54:949	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:46:54:950	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:46:54:951	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:46:55:862	> Event: AA 00 03 00 23 00 DA 
+18:46:56:657	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:56:657	> Event: AA 00 03 2D 00 07 C9 
+18:46:58:734	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:46:58:734	> Event: AA 00 03 2D 00 07 C9 
+18:47:00:835	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:00:835	> Event: AA 00 03 2D 00 07 C9 
+18:47:02:916	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:02:916	> Event: AA 00 03 2D 00 07 C9 
+18:47:05:400	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:05:401	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+18:47:05:402	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:47:05:419	> Event: AA 00 03 00 23 00 DA 
+18:47:07:368	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:07:369	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:07:370	< Command: AA 00 07 23 00 04 01 FF FF FF D4 
+Command Complete.
+18:47:07:385	> Event: AA 00 03 00 23 00 DA 
+18:47:10:861	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:47:10:875	> Event: AA 00 03 00 16 00 E7 
+18:47:10:875	< Command: AA 00 02 14 17 D3 
+18:47:10:882	< Command: AA 00 03 16 00 05 E2 
+18:47:10:882	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 15[BTM]
+18:47:10:882	> Event: AA 00 04 17 00 04 FF E2 
+Command Complete.
+18:47:10:896	> Event: AA 00 03 00 16 00 E7 
+18:47:10:896	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 14[BTM]
+18:47:10:896	> Event: AA 00 04 17 00 05 0E D2 
+18:47:19:067	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:47:19:068	> Event: AA 00 03 0A 00 04 EF 
+18:47:21:155	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:21:156	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:21:173	> Event: AA 00 03 00 23 00 DA 
+18:47:22:271	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:22:271	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:22:287	> Event: AA 00 03 00 23 00 DA 
+18:47:23:831	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:23:831	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:23:847	> Event: AA 00 03 00 23 00 DA 
+18:47:24:611	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:24:612	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:24:626	> Event: AA 00 03 00 23 00 DA 
+18:47:25:187	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:25:188	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:25:204	> Event: AA 00 03 00 23 00 DA 
+18:47:25:679	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:25:679	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:25:695	> Event: AA 00 03 00 23 00 DA 
+18:47:28:414	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:28:431	> Event: AA 00 03 00 23 00 DA 
+18:47:28:755	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:47:28:755	> Event: AA 00 03 0A 00 03 F0 
+18:47:29:363	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:29:378	> Event: AA 00 03 00 23 00 DA 
+18:47:29:831	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:29:849	> Event: AA 00 03 00 23 00 DA 
+18:47:30:058	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:30:074	> Event: AA 00 03 00 23 00 DA 
+18:47:30:263	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:30:279	> Event: AA 00 03 00 23 00 DA 
+18:47:30:466	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:30:483	> Event: AA 00 03 00 23 00 DA 
+18:47:30:671	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:30:684	> Event: AA 00 03 00 23 00 DA 
+18:47:30:688	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:30:688	> Event: AA 00 03 2D 00 07 C9 
+18:47:30:852	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:31:042	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:31:235	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:31:427	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:31:605	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:47:31:942	> Event: AA 00 03 00 23 00 DA 
+18:47:32:737	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:32:737	> Event: AA 00 03 2D 00 07 C9 
+18:47:34:306	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:34:523	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:34:621	> Event: AA 00 03 00 23 00 DA 
+18:47:34:625	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:47:34:625	> Event: AA 00 03 0A 00 04 EF 
+18:47:34:727	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:34:744	> Event: AA 00 03 00 23 00 DA 
+18:47:34:826	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:34:826	> Event: AA 00 03 2D 00 07 C9 
+18:47:34:943	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:35:145	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:35:339	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:35:543	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:35:735	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:35:927	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:36:104	> Event: AA 00 03 00 23 00 DA 
+18:47:36:106	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:36:120	> Event: AA 00 03 00 23 00 DA 
+18:47:36:311	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+18:47:36:515	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:36:694	> Event: AA 00 03 00 23 00 DA 
+18:47:36:707	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:36:723	> Event: AA 00 03 00 23 00 DA 
+18:47:36:894	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:36:894	> Event: AA 00 03 2D 00 07 C9 
+18:47:36:909	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:38:189	> Event: AA 00 03 00 23 00 DA 
+18:47:38:999	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:39:000	> Event: AA 00 03 2D 00 07 C9 
+18:47:39:970	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:40:266	> Event: AA 00 03 00 23 00 DA 
+18:47:41:076	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:41:076	> Event: AA 00 03 2D 00 07 C9 
+18:47:43:157	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:43:157	> Event: AA 00 03 2D 00 07 C9 
+18:47:45:239	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:45:239	> Event: AA 00 03 2D 00 07 C9 
+18:47:47:095	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:47:47:095	> Event: AA 00 03 0A 00 03 F0 
+18:47:47:294	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:47:294	> Event: AA 00 03 2D 00 07 C9 
+18:47:53:230	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:53:231	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:53:247	> Event: AA 00 03 00 23 00 DA 
+18:47:53:818	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:47:53:819	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+18:47:53:833	> Event: AA 00 03 00 23 00 DA 
+18:47:55:570	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:55:571	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:55:586	> Event: AA 00 03 00 23 00 DA 
+18:47:56:866	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:56:867	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:56:884	> Event: AA 00 03 00 23 00 DA 
+18:47:57:381	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+18:47:57:382	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+18:47:57:396	> Event: AA 00 03 00 23 00 DA 
+18:47:57:397	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:57:397	> Event: AA 00 03 2D 00 07 C9 
+18:47:58:666	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:47:58:666	> Event: AA 00 03 0A 00 04 EF 
+18:47:59:485	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:47:59:485	> Event: AA 00 03 2D 00 07 C9 
+18:48:00:057	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+18:48:00:572	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+Command Complete.
+18:48:00:746	> Event: AA 00 03 00 23 00 DA 
+18:48:00:992	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+Command Complete.
+18:48:01:324	> Event: AA 00 03 00 23 00 DA 
+18:48:01:497	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+Command Complete.
+18:48:01:513	> Event: AA 00 03 00 23 00 DA 
+18:48:02:756	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:48:02:770	> Event: AA 00 03 00 16 00 E7 
+18:48:02:770	< Command: AA 00 02 14 17 D3 
+18:48:02:777	< Command: AA 00 03 16 00 05 E2 
+18:48:02:777	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 15[BTM]
+18:48:02:777	> Event: AA 00 04 17 00 04 BF 22 
+Command Complete.
+18:48:02:791	> Event: AA 00 03 00 16 00 E7 
+18:48:02:795	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 14[BTM]
+18:48:02:795	> Event: AA 00 04 17 00 05 0E D2 
+18:48:04:232	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+18:48:04:249	> Event: AA 00 03 00 23 00 DA 
+18:48:05:373	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:48:05:388	> Event: AA 00 03 00 16 00 E7 
+18:48:05:388	< Command: AA 00 02 14 17 D3 
+18:48:05:394	< Command: AA 00 03 16 00 05 E2 
+18:48:05:394	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 15[BTM]
+18:48:05:394	> Event: AA 00 04 17 00 04 CF 12 
+Command Complete.
+18:48:05:409	> Event: AA 00 03 00 16 00 E7 
+18:48:05:409	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 14[BTM]
+18:48:05:409	> Event: AA 00 04 17 00 05 0E D2 
+18:48:09:885	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:48:09:902	> Event: AA 00 03 00 23 00 DA 
+18:48:10:401	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:48:10:414	> Event: AA 00 03 00 23 00 DA 
+18:48:11:133	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:48:11:148	> Event: AA 00 03 00 23 00 DA 
+18:48:11:865	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:48:11:880	> Event: AA 00 03 00 16 00 E7 
+18:48:11:880	< Command: AA 00 02 14 17 D3 
+18:48:11:885	< Command: AA 00 03 16 00 05 E2 
+18:48:11:885	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 15[BTM]
+18:48:11:885	> Event: AA 00 04 17 00 04 CF 12 
+Command Complete.
+18:48:11:900	> Event: AA 00 03 00 16 00 E7 
+18:48:11:900	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 11[BTM]
+18:48:11:901	> Event: AA 00 04 17 00 05 0B D5 
+18:48:12:933	< Command: AA 00 07 23 00 04 02 FF FF FF D3 
+Command Complete.
+18:48:12:950	> Event: AA 00 03 00 23 00 DA 
+18:48:14:025	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:48:14:039	> Event: AA 00 03 00 16 00 E7 
+18:48:14:039	< Command: AA 00 02 14 17 D3 
+18:48:14:045	< Command: AA 00 03 16 00 05 E2 
+18:48:14:045	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 15[BTM]
+18:48:14:045	> Event: AA 00 04 17 00 04 CF 12 
+Command Complete.
+18:48:14:059	> Event: AA 00 03 00 16 00 E7 
+18:48:14:059	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 10[BTM]
+18:48:14:060	> Event: AA 00 04 17 00 05 0A D6 
+18:48:24:829	< Command: AA 00 02 14 01 E9 
+Power on device.
+18:48:24:829	> Event: AA 00 03 01 02 00 FA 
+18:48:24:833	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+18:48:24:834	> Event: AA 00 03 01 0F 00 ED 
+18:48:24:837	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:48:24:837	> Event: AA 00 03 2D 00 01 CF 
+18:48:24:841	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+18:48:24:841	> Event: AA 00 03 0D 01 00 EF 
+18:48:24:943	< Command: AA 00 02 14 0D DD 
+18:48:25:104	< Command: AA 00 02 14 23 C7 
+
+18:48:25:104	> Event: AA 00 03 23 00 00 DA 
+18:48:27:094	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+18:48:27:094	> Event: AA 00 03 09 00 05 EF 
+18:48:27:098	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+18:48:27:098	> Event: AA 00 03 06 00 05 F2 
+18:48:27:192	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:48:27:192	> Event: AA 00 03 0A 00 04 EF 
+18:48:27:196	< Command: AA 00 02 14 08 E2 
+No Roaming.
+18:48:27:196	> Event: AA 00 03 08 00 00 F5 
+18:48:27:200	< Command: AA 00 02 14 07 E3 
+Battery is high.
+18:48:27:200	> Event: AA 00 03 07 00 03 F3 
+18:48:27:204	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+18:48:27:204	> Event: AA 00 03 0B 00 01 F1 
+18:48:27:393	< Command: AA 00 02 14 01 E9 
+18:48:27:393	< Command: AA 00 03 16 00 00 E7 
+18:48:27:393	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+18:48:27:393	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+18:48:27:409	> Event: AA 00 03 00 16 00 E7 
+18:48:27:413	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+18:48:27:413	> Event: AA 00 03 0F 00 0C E2 
+18:48:27:425	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.8v to 3.9v[BTM]
+18:48:27:426	> Event: AA 00 03 0C 05 08 E4 
+18:48:27:511	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:48:27:516	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:48:27:528	< Command: AA 00 02 14 01 E9 
+18:48:27:528	< Command: AA 00 03 16 00 00 E7 
+18:48:27:528	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+18:48:27:528	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+18:48:27:557	> Event: AA 00 03 00 16 00 E7 
+18:48:27:557	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+18:48:27:561	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+18:48:28:167	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:48:28:168	> Event: AA 00 03 0A 00 03 F0 
+18:48:28:782	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+18:48:28:782	> Event: AA 00 04 17 00 06 00 DF 
+18:48:30:142	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+18:48:30:142	> Event: AA 00 03 01 0B 00 F1 
+18:48:30:199	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+18:48:30:199	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+18:48:30:461	< Command: AA 00 02 14 17 D3 
+18:48:30:710	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+18:48:30:711	> Event: AA 00 03 0A 00 04 EF 
+18:48:46:219	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+18:48:46:235	> Event: AA 00 03 00 16 00 E7 
+18:48:46:236	< Command: AA 00 02 14 17 D3 
+18:48:46:240	< Command: AA 00 03 16 00 05 E2 
+18:48:46:240	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 7[BTM]
+18:48:46:240	> Event: AA 00 04 17 00 04 C7 1A 
+Command Complete.
+18:48:46:256	> Event: AA 00 03 00 16 00 E7 
+18:48:46:256	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 0[BTM]
+18:48:46:256	> Event: AA 00 04 17 00 05 00 E0 
+18:49:07:433	< Command: AA 00 02 17 00 E7 
+Command Complete.
+18:49:07:450	> Event: AA 00 03 00 17 00 E6 
+18:49:09:551	< Command: AA 00 02 14 23 C7 
+
+18:49:09:551	> Event: AA 00 03 23 01 01 D8 
+18:49:19:252	< Command: AA 00 03 22 00 FF DC 
+Command Complete.
+18:49:19:268	> Event: AA 00 03 00 22 00 DB 
+18:49:19:268	< Command: AA 00 02 14 2C BE 
+
+18:49:19:268	> Event: AA 00 08 2C 00 51 DD 98 EF E0 FD 3A 
+18:49:22:540	< Command: AA 00 05 22 01 FF 00 00 D9 
+18:49:25:036	< Command: AA 00 03 22 00 FF DC 
+Command Complete.
+18:49:25:051	> Event: AA 00 03 00 22 00 DB 
+18:49:25:052	< Command: AA 00 02 14 2C BE 
+
+18:49:25:052	> Event: AA 00 08 2C 00 A1 AF 82 90 98 DC F6 
+18:49:48:952	< Command: AA 00 03 2C 00 00 D1 
+Unknow Command.
+18:49:48:966	> Event: AA 00 03 00 2C 02 CF 
+18:50:23:678	< Command: AA 00 03 13 01 01 E8 
+Command Complete.
+18:50:23:694	> Event: AA 00 03 00 13 00 EA 
+18:50:23:723	< Command: AA 00 02 14 1B CF 
+Line-in is plugged-in.
+18:50:23:723	> Event: AA 00 03 1B 01 01 E0 
+18:50:29:294	< Command: AA 00 03 13 01 00 E9 
+Command Complete.
+18:50:29:310	> Event: AA 00 03 00 13 00 EA 
+18:50:29:326	< Command: AA 00 02 14 1B CF 
+Line-in is unpluged.
+18:50:29:327	> Event: AA 00 03 1B 01 00 E1 
+18:52:05:816	< Command: AA 00 03 1C 02 FF E0 
+Command Complete.
+18:52:07:088	> Event: AA 00 03 00 1C 00 E1 
+18:52:07:088	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : bass[BTM]
+18:52:07:088	> Event: AA 00 03 10 02 00 EB 
+18:52:07:591	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+18:52:07:591	> Event: AA 00 03 2D 00 07 C9 
+19:20:22:783	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:20:22:783	> Event: AA 00 03 30 00 00 CD 
+19:20:22:787	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:20:22:787	> Event: AA 00 03 2D 00 01 CF 
+19:20:22:791	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+19:20:22:792	> Event: AA 00 03 0D 03 00 ED 
+19:20:22:795	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is higher than 4.2V.[BTM]
+19:20:22:796	> Event: AA 00 03 0C 06 0C DF 
+19:20:22:836	< Command: AA 00 02 14 0D DD 
+19:20:27:620	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is lower than 3.1V.[BTM]
+19:20:27:620	> Event: AA 00 03 0C 06 00 EB 
+19:21:25:270	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:21:25:558	> Event: AA 00 03 00 02 00 FB 
+19:21:25:599	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:21:25:599	> Event: AA 00 03 0E 00 00 EF 
+19:21:25:648	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:21:25:649	> Event: AA 00 03 01 0F 00 ED 
+19:21:28:173	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:21:28:187	> Event: AA 00 03 00 02 00 FB 
+19:21:29:129	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+19:21:29:129	> Event: AA 00 03 01 01 00 FB 
+19:21:29:134	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:21:29:134	> Event: AA 00 03 2D 00 07 C9 
+19:21:29:769	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:21:29:769	> Event: AA 00 03 32 01 00 CA 
+19:21:30:280	< Command: AA 00 02 14 24 C6 
+
+19:21:30:280	> Event: AA 00 03 24 1D 00 BC 
+19:21:55:882	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:21:55:883	> Event: AA 00 03 01 0F 00 ED 
+19:21:57:390	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:21:57:390	> Event: AA 00 03 01 03 00 F9 
+19:21:57:407	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:21:57:407	> Event: AA 00 03 2D 00 07 C9 
+19:21:58:151	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:21:58:151	> Event: AA 00 03 09 00 05 EF 
+19:21:58:164	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:21:58:164	> Event: AA 00 03 06 00 05 F2 
+19:21:58:172	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:21:58:172	> Event: AA 00 03 0A 00 04 EF 
+19:21:58:184	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:21:58:184	> Event: AA 00 03 08 00 00 F5 
+19:21:58:188	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:21:58:189	> Event: AA 00 03 07 00 02 F4 
+19:21:58:193	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:21:58:193	> Event: AA 00 03 0B 00 01 F1 
+19:21:58:229	< Command: AA 00 02 14 01 E9 
+19:21:58:231	< Command: AA 00 03 16 00 00 E7 
+19:21:58:231	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:21:58:231	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:21:58:246	> Event: AA 00 03 00 16 00 E7 
+19:21:58:250	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 9[BTM]
+19:21:58:250	> Event: AA 00 03 0F 00 09 E5 
+19:21:58:262	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:21:58:262	> Event: AA 00 03 0A 00 03 F0 
+19:21:58:291	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:21:58:299	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:21:58:570	< Command: AA 00 02 14 24 C6 
+
+19:21:58:570	> Event: AA 00 03 24 02 00 D7 
+19:21:58:746	< Command: AA 00 02 14 01 E9 
+19:21:58:746	< Command: AA 00 03 16 00 00 E7 
+19:21:58:746	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:21:58:746	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:21:58:783	> Event: AA 00 03 00 16 00 E7 
+19:21:58:787	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:21:58:791	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:21:58:815	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:21:58:815	> Event: AA 00 04 17 00 06 00 DF 
+19:21:59:045	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:21:59:045	> Event: AA 00 03 2D 00 07 C9 
+19:22:00:114	< Command: AA 00 02 14 24 C6 
+
+19:22:00:114	> Event: AA 00 03 24 1B 00 BE 
+19:22:01:039	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:22:01:039	> Event: AA 00 03 01 0B 00 F1 
+19:22:01:072	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:01:072	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+19:22:01:100	< Command: AA 00 02 14 17 D3 
+19:22:01:121	< Command: AA 00 02 14 29 C1 
+19:22:05:943	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:05:943	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+19:22:05:951	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:05:951	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+19:22:05:963	< Command: AA 00 02 14 2D BD 
+19:22:06:975	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:06:975	> Event: AA 00 03 10 00 00 ED 
+19:22:06:979	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:06:979	> Event: AA 00 03 1B 04 01 DD 
+19:22:08:065	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:08:065	> Event: AA 00 03 1B 04 00 DE 
+19:22:08:892	< Command: AA 00 02 14 2D BD 
+19:22:09:891	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:09:891	> Event: AA 00 03 10 00 00 ED 
+19:22:09:899	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:09:899	> Event: AA 00 03 1B 04 01 DD 
+19:22:11:457	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:11:457	> Event: AA 00 03 1B 04 00 DE 
+19:22:12:283	< Command: AA 00 02 14 2D BD 
+19:22:13:283	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:13:283	> Event: AA 00 03 10 00 00 ED 
+19:22:13:287	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:13:287	> Event: AA 00 03 1B 04 01 DD 
+19:22:14:246	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:14:246	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+19:22:14:282	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:14:282	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+19:22:14:323	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:14:323	> Event: AA 00 03 1B 04 00 DE 
+19:22:14:614	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:14:614	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+19:22:14:692	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:14:692	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+19:22:15:151	< Command: AA 00 02 14 2D BD 
+19:22:16:150	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:16:150	> Event: AA 00 03 10 00 00 ED 
+19:22:16:154	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:16:154	> Event: AA 00 03 1B 04 01 DD 
+19:22:18:764	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:18:764	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+19:22:18:801	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+19:22:18:801	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+19:22:18:875	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:22:18:875	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:22:18:887	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:22:18:887	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:22:19:812	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:19:812	> Event: AA 00 03 1B 04 00 DE 
+19:22:20:636	< Command: AA 00 02 14 2D BD 
+19:22:21:639	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:21:639	> Event: AA 00 03 10 00 00 ED 
+19:22:21:648	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:21:648	> Event: AA 00 03 1B 04 01 DD 
+19:22:23:253	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:23:253	> Event: AA 00 03 1B 04 00 DE 
+19:22:24:081	< Command: AA 00 02 14 2D BD 
+19:22:25:084	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:25:084	> Event: AA 00 03 10 00 00 ED 
+19:22:25:088	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:25:088	> Event: AA 00 03 1B 04 01 DD 
+19:22:26:162	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:26:162	> Event: AA 00 03 1B 04 00 DE 
+19:22:26:191	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:22:26:191	> Event: AA 00 03 0A 00 04 EF 
+19:22:26:985	< Command: AA 00 02 14 2D BD 
+19:22:27:989	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:27:989	> Event: AA 00 03 10 00 00 ED 
+19:22:27:992	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:27:992	> Event: AA 00 03 1B 04 01 DD 
+19:22:28:840	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:28:840	> Event: AA 00 03 1B 04 00 DE 
+19:22:29:668	< Command: AA 00 02 14 2D BD 
+19:22:30:667	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:30:667	> Event: AA 00 03 10 00 00 ED 
+19:22:30:671	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:30:671	> Event: AA 00 03 1B 04 01 DD 
+19:22:31:733	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:31:733	> Event: AA 00 03 1B 04 00 DE 
+19:22:32:560	< Command: AA 00 02 14 2D BD 
+19:22:33:560	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:33:560	> Event: AA 00 03 10 00 00 ED 
+19:22:33:568	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:33:568	> Event: AA 00 03 1B 04 01 DD 
+19:22:34:621	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:34:621	> Event: AA 00 03 1B 04 00 DE 
+19:22:35:448	< Command: AA 00 02 14 2D BD 
+19:22:36:448	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:36:448	> Event: AA 00 03 10 00 00 ED 
+19:22:36:456	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:36:456	> Event: AA 00 03 1B 04 01 DD 
+19:22:37:013	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:37:013	> Event: AA 00 03 1B 04 00 DE 
+19:22:37:836	< Command: AA 00 02 14 2D BD 
+19:22:38:844	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:38:844	> Event: AA 00 03 10 00 00 ED 
+19:22:38:852	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:38:852	> Event: AA 00 03 1B 04 01 DD 
+19:22:39:315	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:39:315	> Event: AA 00 03 1B 04 00 DE 
+19:22:40:142	< Command: AA 00 02 14 2D BD 
+19:22:41:142	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:41:142	> Event: AA 00 03 10 00 00 ED 
+19:22:41:150	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:41:150	> Event: AA 00 03 1B 04 01 DD 
+19:22:41:605	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:41:605	> Event: AA 00 03 1B 04 00 DE 
+19:22:42:428	< Command: AA 00 02 14 2D BD 
+19:22:43:432	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:43:432	> Event: AA 00 03 10 00 00 ED 
+19:22:43:436	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:43:436	> Event: AA 00 03 1B 04 01 DD 
+19:22:43:964	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:43:964	> Event: AA 00 03 1B 04 00 DE 
+19:22:44:791	< Command: AA 00 02 14 2D BD 
+19:22:45:792	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:45:792	> Event: AA 00 03 10 00 00 ED 
+19:22:45:800	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:45:800	> Event: AA 00 03 1B 04 01 DD 
+19:22:46:315	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:46:315	> Event: AA 00 03 1B 04 00 DE 
+19:22:47:143	< Command: AA 00 02 14 2D BD 
+19:22:48:142	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:48:142	> Event: AA 00 03 10 00 00 ED 
+19:22:48:150	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:48:150	> Event: AA 00 03 1B 04 01 DD 
+19:22:48:831	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:48:831	> Event: AA 00 03 1B 04 00 DE 
+19:22:49:654	< Command: AA 00 02 14 2D BD 
+19:22:50:657	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:50:657	> Event: AA 00 03 10 00 00 ED 
+19:22:50:661	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:50:661	> Event: AA 00 03 1B 04 01 DD 
+19:22:51:366	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:51:366	> Event: AA 00 03 1B 04 00 DE 
+19:22:52:190	< Command: AA 00 02 14 2D BD 
+19:22:53:193	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:53:193	> Event: AA 00 03 10 00 00 ED 
+19:22:53:197	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:53:197	> Event: AA 00 03 1B 04 01 DD 
+19:22:53:906	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:53:906	> Event: AA 00 03 1B 04 00 DE 
+19:22:54:729	< Command: AA 00 02 14 2D BD 
+19:22:55:729	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:55:729	> Event: AA 00 03 10 00 00 ED 
+19:22:55:737	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:55:737	> Event: AA 00 03 1B 04 01 DD 
+19:22:56:626	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:56:626	> Event: AA 00 03 1B 04 00 DE 
+19:22:56:650	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:22:56:650	> Event: AA 00 03 0A 00 03 F0 
+19:22:57:454	< Command: AA 00 02 14 2D BD 
+19:22:58:452	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:22:58:452	> Event: AA 00 03 10 00 00 ED 
+19:22:58:460	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:22:58:460	> Event: AA 00 03 1B 04 01 DD 
+19:22:58:801	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:22:58:801	> Event: AA 00 03 0A 00 04 EF 
+19:22:59:870	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:22:59:870	> Event: AA 00 03 1B 04 00 DE 
+19:23:00:697	< Command: AA 00 02 14 2D BD 
+19:23:01:701	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:01:701	> Event: AA 00 03 10 00 00 ED 
+19:23:01:709	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:01:709	> Event: AA 00 03 1B 04 01 DD 
+19:23:02:401	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:02:402	> Event: AA 00 03 1B 04 00 DE 
+19:23:03:229	< Command: AA 00 02 14 2D BD 
+19:23:04:229	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:04:229	> Event: AA 00 03 10 00 00 ED 
+19:23:04:233	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:04:233	> Event: AA 00 03 1B 04 01 DD 
+19:23:04:961	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:04:961	> Event: AA 00 03 1B 04 00 DE 
+19:23:05:789	< Command: AA 00 02 14 2D BD 
+19:23:06:788	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:06:788	> Event: AA 00 03 10 00 00 ED 
+19:23:06:792	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:06:792	> Event: AA 00 03 1B 04 01 DD 
+19:23:07:723	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:07:723	> Event: AA 00 03 1B 04 00 DE 
+19:23:08:546	< Command: AA 00 02 14 2D BD 
+19:23:09:550	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:09:550	> Event: AA 00 03 10 00 00 ED 
+19:23:09:558	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:09:558	> Event: AA 00 03 1B 04 01 DD 
+19:23:10:081	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:10:081	> Event: AA 00 03 1B 04 00 DE 
+19:23:10:909	< Command: AA 00 02 14 2D BD 
+19:23:11:908	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:11:908	> Event: AA 00 03 10 00 00 ED 
+19:23:11:917	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:11:917	> Event: AA 00 03 1B 04 01 DD 
+19:23:12:912	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:12:912	> Event: AA 00 03 1B 04 00 DE 
+19:23:13:736	< Command: AA 00 02 14 2D BD 
+19:23:14:739	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:14:739	> Event: AA 00 03 10 00 00 ED 
+19:23:14:747	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:14:747	> Event: AA 00 03 1B 04 01 DD 
+19:23:16:115	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:16:115	> Event: AA 00 03 1B 04 00 DE 
+19:23:16:939	< Command: AA 00 02 14 2D BD 
+19:23:17:943	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:17:943	> Event: AA 00 03 10 00 00 ED 
+19:23:17:951	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:17:951	> Event: AA 00 03 1B 04 01 DD 
+19:23:19:011	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:19:011	> Event: AA 00 03 1B 04 00 DE 
+19:23:19:839	< Command: AA 00 02 14 2D BD 
+19:23:20:843	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:20:843	> Event: AA 00 03 10 00 00 ED 
+19:23:20:847	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:20:847	> Event: AA 00 03 1B 04 01 DD 
+19:23:21:859	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:21:859	> Event: AA 00 03 1B 04 00 DE 
+19:23:22:686	< Command: AA 00 02 14 2D BD 
+19:23:23:690	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:23:690	> Event: AA 00 03 10 00 00 ED 
+19:23:23:694	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:23:694	> Event: AA 00 03 1B 04 01 DD 
+19:23:25:062	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:25:062	> Event: AA 00 03 1B 04 00 DE 
+19:23:25:890	< Command: AA 00 02 14 2D BD 
+19:23:26:889	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:26:889	> Event: AA 00 03 10 00 00 ED 
+19:23:26:893	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:26:893	> Event: AA 00 03 1B 04 01 DD 
+19:23:27:925	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:27:925	> Event: AA 00 03 1B 04 00 DE 
+19:23:28:748	< Command: AA 00 02 14 2D BD 
+19:23:29:752	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:29:752	> Event: AA 00 03 10 00 00 ED 
+19:23:29:756	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:29:756	> Event: AA 00 03 1B 04 01 DD 
+19:23:30:805	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:30:805	> Event: AA 00 03 1B 04 00 DE 
+19:23:31:628	< Command: AA 00 02 14 2D BD 
+19:23:32:632	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:32:632	> Event: AA 00 03 10 00 00 ED 
+19:23:32:636	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:32:636	> Event: AA 00 03 1B 04 01 DD 
+19:23:33:668	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:33:668	> Event: AA 00 03 1B 04 00 DE 
+19:23:34:492	< Command: AA 00 02 14 2D BD 
+19:23:35:491	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:35:491	> Event: AA 00 03 10 00 00 ED 
+19:23:35:495	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:35:495	> Event: AA 00 03 1B 04 01 DD 
+19:23:36:535	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:36:535	> Event: AA 00 03 1B 04 00 DE 
+19:23:37:363	< Command: AA 00 02 14 2D BD 
+19:23:38:366	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:38:366	> Event: AA 00 03 10 00 00 ED 
+19:23:38:374	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:38:374	> Event: AA 00 03 1B 04 01 DD 
+19:23:39:424	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:39:424	> Event: AA 00 03 1B 04 00 DE 
+19:23:40:246	< Command: AA 00 02 14 2D BD 
+19:23:41:250	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:41:250	> Event: AA 00 03 10 00 00 ED 
+19:23:41:259	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:41:259	> Event: AA 00 03 1B 04 01 DD 
+19:23:42:266	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:42:266	> Event: AA 00 03 1B 04 00 DE 
+19:23:43:094	< Command: AA 00 02 14 2D BD 
+19:23:44:093	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:44:093	> Event: AA 00 03 10 00 00 ED 
+19:23:44:097	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:44:097	> Event: AA 00 03 1B 04 01 DD 
+19:23:45:289	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:45:289	> Event: AA 00 03 1B 04 00 DE 
+19:23:46:121	< Command: AA 00 02 14 2D BD 
+19:23:47:120	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:47:120	> Event: AA 00 03 10 00 00 ED 
+19:23:47:128	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:47:128	> Event: AA 00 03 1B 04 01 DD 
+19:23:48:395	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:23:48:395	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:23:48:435	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:23:48:435	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:23:48:476	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:48:476	> Event: AA 00 03 1B 04 00 DE 
+19:23:49:299	< Command: AA 00 02 14 2D BD 
+19:23:49:348	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:23:49:348	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:23:49:357	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:23:49:357	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:23:50:303	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:50:303	> Event: AA 00 03 10 00 00 ED 
+19:23:50:307	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:50:307	> Event: AA 00 03 1B 04 01 DD 
+19:23:51:515	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:51:515	> Event: AA 00 03 1B 04 00 DE 
+19:23:52:343	< Command: AA 00 02 14 2D BD 
+19:23:53:346	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:53:346	> Event: AA 00 03 10 00 00 ED 
+19:23:53:354	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:53:355	> Event: AA 00 03 1B 04 01 DD 
+19:23:54:244	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:54:244	> Event: AA 00 03 1B 04 00 DE 
+19:23:55:067	< Command: AA 00 02 14 2D BD 
+19:23:56:071	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:56:071	> Event: AA 00 03 10 00 00 ED 
+19:23:56:075	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:56:075	> Event: AA 00 03 1B 04 01 DD 
+19:23:57:468	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:23:57:468	> Event: AA 00 03 1B 04 00 DE 
+19:23:58:295	< Command: AA 00 02 14 2D BD 
+19:23:59:299	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:23:59:299	> Event: AA 00 03 10 00 00 ED 
+19:23:59:307	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:23:59:307	> Event: AA 00 03 1B 04 01 DD 
+19:24:00:371	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:00:372	> Event: AA 00 03 1B 04 00 DE 
+19:24:01:302	< Command: AA 00 02 14 2D BD 
+19:24:02:403	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:02:403	> Event: AA 00 03 10 00 00 ED 
+19:24:02:407	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:02:407	> Event: AA 00 03 1B 04 01 DD 
+19:24:03:767	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:03:767	> Event: AA 00 03 1B 04 00 DE 
+19:24:04:697	< Command: AA 00 02 14 2D BD 
+19:24:05:799	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:05:799	> Event: AA 00 03 10 00 00 ED 
+19:24:05:807	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:05:807	> Event: AA 00 03 1B 04 01 DD 
+19:24:07:179	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:07:179	> Event: AA 00 03 1B 04 00 DE 
+19:24:08:109	< Command: AA 00 02 14 2D BD 
+19:24:09:207	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:09:207	> Event: AA 00 03 10 00 00 ED 
+19:24:09:215	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:09:215	> Event: AA 00 03 1B 04 01 DD 
+19:24:10:395	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:10:395	> Event: AA 00 03 1B 04 00 DE 
+19:24:11:321	< Command: AA 00 02 14 2D BD 
+19:24:12:422	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:12:422	> Event: AA 00 03 10 00 00 ED 
+19:24:12:430	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:12:430	> Event: AA 00 03 1B 04 01 DD 
+19:24:13:410	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:13:410	> Event: AA 00 03 1B 04 00 DE 
+19:24:14:335	< Command: AA 00 02 14 2D BD 
+19:24:15:442	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:15:442	> Event: AA 00 03 10 00 00 ED 
+19:24:15:450	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:15:450	> Event: AA 00 03 1B 04 01 DD 
+19:24:16:494	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:16:494	> Event: AA 00 03 1B 04 00 DE 
+19:24:17:425	< Command: AA 00 02 14 2D BD 
+19:24:18:522	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:18:522	> Event: AA 00 03 10 00 00 ED 
+19:24:18:530	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:18:530	> Event: AA 00 03 1B 04 01 DD 
+19:24:19:595	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:19:595	> Event: AA 00 03 1B 04 00 DE 
+19:24:20:521	< Command: AA 00 02 14 2D BD 
+19:24:21:623	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:21:623	> Event: AA 00 03 10 00 00 ED 
+19:24:21:631	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:21:631	> Event: AA 00 03 1B 04 01 DD 
+19:24:22:835	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:22:835	> Event: AA 00 03 1B 04 00 DE 
+19:24:23:761	< Command: AA 00 02 14 2D BD 
+19:24:24:863	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:24:863	> Event: AA 00 03 10 00 00 ED 
+19:24:24:871	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:24:871	> Event: AA 00 03 1B 04 01 DD 
+19:24:26:236	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:26:236	> Event: AA 00 03 1B 04 00 DE 
+19:24:27:165	< Command: AA 00 02 14 2D BD 
+19:24:28:263	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:28:263	> Event: AA 00 03 10 00 00 ED 
+19:24:28:267	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:28:267	> Event: AA 00 03 1B 04 01 DD 
+19:24:29:521	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:29:521	> Event: AA 00 03 1B 04 00 DE 
+19:24:30:442	< Command: AA 00 02 14 2D BD 
+19:24:31:544	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:31:544	> Event: AA 00 03 10 00 00 ED 
+19:24:31:553	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:31:553	> Event: AA 00 03 1B 04 01 DD 
+19:24:32:892	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:32:892	> Event: AA 00 03 1B 04 00 DE 
+19:24:33:813	< Command: AA 00 02 14 2D BD 
+19:24:34:928	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:34:928	> Event: AA 00 03 10 00 00 ED 
+19:24:34:932	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:34:932	> Event: AA 00 03 1B 04 01 DD 
+19:24:36:091	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:36:091	> Event: AA 00 03 1B 04 00 DE 
+19:24:37:017	< Command: AA 00 02 14 2D BD 
+19:24:38:118	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:24:38:118	> Event: AA 00 03 10 00 00 ED 
+19:24:38:126	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:24:38:126	> Event: AA 00 03 1B 04 01 DD 
+19:24:39:118	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:24:39:118	> Event: AA 00 03 1B 04 00 DE 
+19:24:40:043	< Command: AA 00 02 14 2D BD 
+19:24:40:941	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:24:40:941	> Event: AA 00 03 30 00 00 CD 
+19:24:40:945	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:24:40:945	> Event: AA 00 03 2D 00 01 CF 
+19:24:40:949	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+19:24:40:950	> Event: AA 00 03 0D 03 00 ED 
+19:24:40:953	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is higher than 4.2V.[BTM]
+19:24:40:954	> Event: AA 00 03 0C 06 0C DF 
+19:24:40:994	< Command: AA 00 02 14 0D DD 
+19:24:45:779	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is lower than 3.1V.[BTM]
+19:24:45:779	> Event: AA 00 03 0C 06 00 EB 
+19:25:29:625	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:25:29:625	> Event: AA 00 03 30 00 00 CD 
+19:25:29:629	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:25:29:629	> Event: AA 00 03 2D 00 01 CF 
+19:25:29:633	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:25:29:633	> Event: AA 00 03 0D 01 00 EF 
+19:25:29:637	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.4v to 3.5v[BTM]
+19:25:29:637	> Event: AA 00 03 0C 05 04 E8 
+19:25:29:744	< Command: AA 00 02 14 0D DD 
+19:25:30:825	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.7v to 3.8v[BTM]
+19:25:30:825	> Event: AA 00 03 0C 05 07 E5 
+19:25:33:230	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.9v to 4.0v[BTM]
+19:25:33:230	> Event: AA 00 03 0C 05 09 E3 
+19:25:34:429	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 4.1v to 4.2v[BTM]
+19:25:34:430	> Event: AA 00 03 0C 05 0B E1 
+19:25:34:585	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is higher than 4.2V.[BTM]
+19:25:34:585	> Event: AA 00 03 0C 05 0C E0 
+19:25:35:630	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+19:25:35:631	> Event: AA 00 03 0D 03 00 ED 
+19:25:39:624	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is lower than 3.1V.[BTM]
+19:25:39:624	> Event: AA 00 03 0C 06 00 EB 
+19:26:04:513	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:26:04:513	> Event: AA 00 03 30 00 00 CD 
+19:26:04:517	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:26:04:517	> Event: AA 00 03 2D 00 01 CF 
+19:26:04:521	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:26:04:522	> Event: AA 00 03 0D 01 00 EF 
+19:26:04:627	< Command: AA 00 02 14 0D DD 
+19:26:10:518	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.9v to 4.0v[BTM]
+19:26:10:518	> Event: AA 00 03 0C 05 09 E3 
+19:26:12:918	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+19:26:12:918	> Event: AA 00 03 0D 03 00 ED 
+19:26:52:733	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:26:53:021	> Event: AA 00 03 00 02 00 FB 
+19:26:53:062	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:26:53:062	> Event: AA 00 03 0E 00 00 EF 
+19:26:53:111	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:26:53:112	> Event: AA 00 03 01 0F 00 ED 
+19:26:54:977	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:26:54:990	> Event: AA 00 03 00 02 00 FB 
+19:26:55:933	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+19:26:55:933	> Event: AA 00 03 01 01 00 FB 
+19:26:55:937	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:26:55:937	> Event: AA 00 03 2D 00 07 C9 
+19:26:56:355	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:26:56:355	> Event: AA 00 03 32 01 00 CA 
+19:26:56:495	< Command: AA 00 02 14 24 C6 
+
+19:26:56:495	> Event: AA 00 03 24 1D 00 BC 
+19:26:59:870	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is within range of 3.8v to 3.9v[BTM]
+19:26:59:870	> Event: AA 00 03 0C 06 08 E3 
+19:27:12:769	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:27:12:770	> Event: AA 00 03 01 0F 00 ED 
+19:27:44:302	< Command: AA 00 02 14 01 E9 
+Device is pairing failed.
+19:27:44:302	> Event: AA 00 03 01 04 01 F7 
+19:27:52:596	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:27:52:596	> Event: AA 00 03 01 03 00 F9 
+19:27:52:613	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:27:52:613	> Event: AA 00 03 2D 00 07 C9 
+19:27:52:773	< Command: AA 00 02 14 01 E9 
+19:27:52:773	< Command: AA 00 03 16 00 00 E7 
+19:27:52:773	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:27:52:773	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:27:52:822	> Event: AA 00 03 00 16 00 E7 
+19:27:52:855	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:27:52:859	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:27:52:879	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:27:52:879	> Event: AA 00 04 17 00 06 00 DF 
+19:27:52:986	< Command: AA 00 02 14 24 C6 
+
+19:27:52:986	> Event: AA 00 03 24 02 00 D7 
+19:27:52:998	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:27:52:998	> Event: AA 00 03 2D 00 07 C9 
+19:27:53:236	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:27:53:236	> Event: AA 00 03 09 00 05 EF 
+19:27:53:244	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:27:53:244	> Event: AA 00 03 06 00 05 F2 
+19:27:53:252	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:27:53:252	> Event: AA 00 03 0A 00 04 EF 
+19:27:53:256	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:27:53:256	> Event: AA 00 03 08 00 00 F5 
+19:27:53:264	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:27:53:265	> Event: AA 00 03 07 00 02 F4 
+19:27:53:273	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:27:53:273	> Event: AA 00 03 0B 00 01 F1 
+19:27:53:314	< Command: AA 00 02 14 01 E9 
+19:27:53:314	< Command: AA 00 03 16 00 00 E7 
+19:27:53:314	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:27:53:314	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:27:53:330	> Event: AA 00 03 00 16 00 E7 
+19:27:53:334	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:27:53:334	> Event: AA 00 03 0F 00 0C E2 
+19:27:53:379	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:27:53:386	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:27:53:457	< Command: AA 00 02 14 24 C6 
+
+19:27:53:457	> Event: AA 00 03 24 1B 00 BE 
+19:27:53:461	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:27:53:461	> Event: AA 00 03 2D 00 07 C9 
+19:27:53:494	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:27:53:494	> Event: AA 00 03 0A 00 03 F0 
+19:27:53:931	< Command: AA 00 02 14 24 C6 
+
+19:27:53:932	> Event: AA 00 03 24 1B 00 BE 
+19:27:55:280	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:27:55:280	> Event: AA 00 03 01 0B 00 F1 
+19:27:55:321	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:27:55:321	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:27:55:362	< Command: AA 00 02 14 17 D3 
+19:27:55:386	< Command: AA 00 02 14 29 C1 
+19:27:59:835	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:27:59:835	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:27:59:986	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:27:59:986	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:27:59:994	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:27:59:994	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:28:00:003	< Command: AA 00 02 14 2D BD 
+19:28:00:011	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:28:00:011	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:28:00:212	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:28:00:212	> Event: AA 00 03 10 00 00 ED 
+19:28:00:220	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:28:00:220	> Event: AA 00 03 1B 04 01 DD 
+19:28:05:475	< Command: AA 00 02 14 29 C1 
+19:28:05:778	< Command: AA 00 02 14 29 C1 
+19:28:05:832	< Command: AA 00 02 14 29 C1 
+19:28:05:877	< Command: AA 00 02 14 29 C1 
+19:28:05:930	< Command: AA 00 02 14 29 C1 
+19:28:05:975	< Command: AA 00 02 14 29 C1 
+19:28:06:028	< Command: AA 00 02 14 29 C1 
+19:28:06:078	< Command: AA 00 02 14 29 C1 
+19:28:29:151	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:28:29:151	> Event: AA 00 03 0A 00 04 EF 
+19:28:39:114	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:28:39:114	> Event: AA 00 03 30 00 00 CD 
+19:28:39:118	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:28:39:118	> Event: AA 00 03 2D 00 01 CF 
+19:28:39:122	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:28:39:122	> Event: AA 00 03 0D 01 00 EF 
+19:28:39:228	< Command: AA 00 02 14 0D DD 
+19:28:45:119	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.9v to 4.0v[BTM]
+19:28:45:119	> Event: AA 00 03 0C 05 09 E3 
+19:28:47:519	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+19:28:47:519	> Event: AA 00 03 0D 03 00 ED 
+19:28:59:530	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:28:59:546	> Event: AA 00 03 00 02 00 FB 
+19:29:03:585	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:29:03:662	> Event: AA 00 03 00 02 00 FB 
+19:29:03:712	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:29:03:712	> Event: AA 00 03 0E 00 00 EF 
+19:29:03:802	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:29:03:803	> Event: AA 00 03 01 0F 00 ED 
+19:29:09:172	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:29:09:172	> Event: AA 00 03 01 03 00 F9 
+19:29:09:192	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:29:09:192	> Event: AA 00 03 2D 00 07 C9 
+19:29:09:213	< Command: AA 00 02 14 0C DE 
+Charging complete.[BTM]
+Battery voltage is within range of 3.8v to 3.9v[BTM]
+19:29:09:216	> Event: AA 00 03 0C 06 08 E3 
+19:29:09:331	< Command: AA 00 02 14 01 E9 
+19:29:09:332	< Command: AA 00 03 16 00 00 E7 
+19:29:09:332	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:29:09:332	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:29:09:368	> Event: AA 00 03 00 16 00 E7 
+19:29:09:417	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:29:09:421	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:29:09:479	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:29:09:479	> Event: AA 00 04 17 00 06 00 DF 
+19:29:09:581	< Command: AA 00 02 14 24 C6 
+
+19:29:09:581	> Event: AA 00 03 24 02 00 D7 
+19:29:09:590	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:29:09:590	> Event: AA 00 03 2D 00 07 C9 
+19:29:09:753	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:29:09:753	> Event: AA 00 03 09 00 05 EF 
+19:29:09:762	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:29:09:762	> Event: AA 00 03 06 00 05 F2 
+19:29:09:778	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:29:09:778	> Event: AA 00 03 0A 00 04 EF 
+19:29:09:790	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:29:09:790	> Event: AA 00 03 08 00 00 F5 
+19:29:09:794	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:29:09:795	> Event: AA 00 03 07 00 02 F4 
+19:29:09:798	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:29:09:798	> Event: AA 00 03 0B 00 01 F1 
+19:29:09:831	< Command: AA 00 02 14 01 E9 
+19:29:09:832	< Command: AA 00 03 16 00 00 E7 
+19:29:09:832	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:29:09:832	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:29:09:848	> Event: AA 00 03 00 16 00 E7 
+19:29:09:852	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:29:09:852	> Event: AA 00 03 0F 00 0C E2 
+19:29:09:868	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:29:09:874	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:29:10:057	< Command: AA 00 02 14 24 C6 
+
+19:29:10:057	> Event: AA 00 03 24 1B 00 BE 
+19:29:10:065	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:29:10:065	> Event: AA 00 03 2D 00 07 C9 
+19:29:10:102	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:29:10:102	> Event: AA 00 03 0A 00 03 F0 
+19:29:10:528	< Command: AA 00 02 14 24 C6 
+
+19:29:10:528	> Event: AA 00 03 24 1B 00 BE 
+19:29:11:798	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:29:11:798	> Event: AA 00 03 01 0B 00 F1 
+19:29:11:843	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:29:11:843	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:29:11:900	< Command: AA 00 02 14 17 D3 
+19:29:11:949	< Command: AA 00 02 14 29 C1 
+19:29:12:486	< Command: AA 00 02 14 29 C1 
+19:29:12:965	< Command: AA 00 02 14 29 C1 
+19:29:13:317	< Command: AA 00 02 14 29 C1 
+19:29:13:370	< Command: AA 00 02 14 29 C1 
+19:29:13:419	< Command: AA 00 02 14 29 C1 
+19:29:13:465	< Command: AA 00 02 14 29 C1 
+19:29:13:518	< Command: AA 00 02 14 29 C1 
+19:29:13:567	< Command: AA 00 02 14 29 C1 
+19:29:43:195	< Command: AA 00 07 23 00 02 01 FF FF FF D6 
+Command Complete.
+19:29:43:211	> Event: AA 00 03 00 23 00 DA 
+19:29:45:403	< Command: AA 00 07 23 00 02 02 FF FF FF D5 
+Command Complete.
+19:29:45:419	> Event: AA 00 03 00 23 00 DA 
+19:29:47:852	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:29:47:869	> Event: AA 00 03 00 23 00 DA 
+19:29:47:870	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:29:47:870	> Event: AA 00 03 2D 00 07 C9 
+19:29:48:463	< Command: AA 00 02 14 24 C6 
+
+19:29:48:463	> Event: AA 00 03 24 0C 00 CD 
+19:29:51:092	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:29:51:109	> Event: AA 00 03 00 23 00 DA 
+19:29:51:109	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:29:51:109	> Event: AA 00 03 2D 00 07 C9 
+19:29:51:699	< Command: AA 00 02 14 24 C6 
+
+19:29:51:699	> Event: AA 00 03 24 0C 00 CD 
+19:29:53:330	< Command: AA 00 02 14 29 C1 
+19:29:54:329	< Command: AA 00 02 14 29 C1 
+19:29:55:329	< Command: AA 00 02 14 29 C1 
+19:29:56:328	< Command: AA 00 02 14 29 C1 
+19:30:00:091	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:30:00:109	> Event: AA 00 03 00 23 00 DA 
+19:30:02:371	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:30:02:386	> Event: AA 00 03 00 23 00 DA 
+19:30:02:587	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:30:02:603	> Event: AA 00 03 00 23 00 DA 
+19:30:02:603	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:30:02:603	> Event: AA 00 03 2D 00 07 C9 
+19:30:02:803	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:30:02:820	> Event: AA 00 03 00 23 00 DA 
+19:30:03:194	< Command: AA 00 02 14 24 C6 
+
+19:30:03:194	> Event: AA 00 03 24 0C 00 CD 
+19:30:03:198	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:30:03:198	> Event: AA 00 03 2D 00 07 C9 
+19:30:03:787	< Command: AA 00 02 14 24 C6 
+
+19:30:03:787	> Event: AA 00 03 24 0C 00 CD 
+19:39:51:706	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:39:51:706	> Event: AA 00 03 30 00 00 CD 
+19:39:51:710	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:39:51:710	> Event: AA 00 03 2D 00 01 CF 
+19:39:51:714	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:39:51:715	> Event: AA 00 03 0D 01 00 EF 
+19:39:51:821	< Command: AA 00 02 14 0D DD 
+19:39:55:310	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+19:39:55:311	> Event: AA 00 03 0D 03 00 ED 
+19:40:12:130	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:40:12:421	> Event: AA 00 03 00 02 00 FB 
+19:40:12:458	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:40:12:458	> Event: AA 00 03 0E 00 00 EF 
+19:40:12:507	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:40:12:508	> Event: AA 00 03 01 0F 00 ED 
+19:40:26:698	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:40:26:713	> Event: AA 00 03 00 02 00 FB 
+19:40:27:651	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+19:40:27:651	> Event: AA 00 03 01 01 00 FB 
+19:40:27:655	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:40:27:655	> Event: AA 00 03 2D 00 07 C9 
+19:40:28:187	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:40:28:188	> Event: AA 00 03 32 01 00 CA 
+19:40:28:224	< Command: AA 00 02 14 24 C6 
+
+19:40:28:224	> Event: AA 00 03 24 1D 00 BC 
+19:40:39:178	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:40:39:179	> Event: AA 00 03 01 0F 00 ED 
+19:40:45:015	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:40:45:015	> Event: AA 00 03 01 03 00 F9 
+19:40:45:035	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:40:45:035	> Event: AA 00 03 2D 00 07 C9 
+19:40:45:322	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:40:45:322	> Event: AA 00 03 09 00 05 EF 
+19:40:45:326	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:40:45:326	> Event: AA 00 03 06 00 05 F2 
+19:40:45:339	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:40:45:339	> Event: AA 00 03 0A 00 03 F0 
+19:40:45:343	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:40:45:343	> Event: AA 00 03 08 00 00 F5 
+19:40:45:351	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:40:45:351	> Event: AA 00 03 07 00 02 F4 
+19:40:45:359	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:40:45:359	> Event: AA 00 03 0B 00 01 F1 
+19:40:45:408	< Command: AA 00 02 14 01 E9 
+19:40:45:409	< Command: AA 00 03 16 00 00 E7 
+19:40:45:409	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:40:45:409	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:40:45:437	> Event: AA 00 03 00 16 00 E7 
+19:40:45:466	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:40:45:466	> Event: AA 00 03 0F 00 0C E2 
+19:40:45:470	< Command: AA 00 02 14 24 C6 
+
+19:40:45:470	> Event: AA 00 03 24 02 00 D7 
+19:40:45:494	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:40:45:499	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:40:45:515	< Command: AA 00 02 14 01 E9 
+19:40:45:516	< Command: AA 00 03 16 00 00 E7 
+19:40:45:516	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:40:45:516	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:40:45:531	> Event: AA 00 03 00 16 00 E7 
+19:40:45:535	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:40:45:535	> Event: AA 00 03 2D 00 07 C9 
+19:40:45:568	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:40:45:575	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:40:45:576	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:40:45:576	> Event: AA 00 04 17 00 06 00 DF 
+19:40:45:973	< Command: AA 00 02 14 24 C6 
+
+19:40:45:973	> Event: AA 00 03 24 1B 00 BE 
+19:40:48:066	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:40:48:067	> Event: AA 00 03 01 0B 00 F1 
+19:40:48:095	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:40:48:095	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:40:48:144	< Command: AA 00 02 14 17 D3 
+19:40:48:173	< Command: AA 00 02 14 29 C1 
+19:41:46:996	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:41:46:996	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:41:47:057	< Command: AA 00 02 14 2D BD 
+19:41:47:064	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:41:47:064	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:41:47:257	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:41:47:257	> Event: AA 00 03 10 00 00 ED 
+19:41:47:261	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:41:47:261	> Event: AA 00 03 1B 04 01 DD 
+19:41:50:371	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:41:50:371	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:41:50:411	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:41:50:412	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:41:52:992	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:41:52:992	> Event: AA 00 03 30 00 00 CD 
+19:41:52:996	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:41:52:996	> Event: AA 00 03 2D 00 01 CF 
+19:41:53:000	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:41:53:001	> Event: AA 00 03 0D 01 00 EF 
+19:41:53:111	< Command: AA 00 02 14 0D DD 
+19:41:56:596	< Command: AA 00 02 14 0C DE 
+In charging.[BTM]
+Battery voltage is within range of 3.8v to 3.9v[BTM]
+19:41:56:596	> Event: AA 00 03 0C 05 08 E4 
+19:42:16:228	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:42:16:242	> Event: AA 00 03 00 02 00 FB 
+19:42:23:931	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:42:23:997	> Event: AA 00 03 00 02 00 FB 
+19:42:24:021	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:42:24:021	> Event: AA 00 03 0E 00 00 EF 
+19:42:24:157	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:42:24:158	> Event: AA 00 03 01 0F 00 ED 
+19:42:29:489	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:42:29:489	> Event: AA 00 03 01 03 00 F9 
+19:42:29:506	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:42:29:506	> Event: AA 00 03 2D 00 07 C9 
+19:42:29:649	< Command: AA 00 02 14 01 E9 
+19:42:29:650	< Command: AA 00 03 16 00 00 E7 
+19:42:29:650	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:42:29:650	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:42:29:686	> Event: AA 00 03 00 16 00 E7 
+19:42:29:690	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:42:29:694	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:42:29:768	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:42:29:768	> Event: AA 00 04 17 00 06 00 DF 
+19:42:29:891	< Command: AA 00 02 14 24 C6 
+
+19:42:29:891	> Event: AA 00 03 24 02 00 D7 
+19:42:29:895	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:42:29:895	> Event: AA 00 03 2D 00 07 C9 
+19:42:30:124	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:42:30:124	> Event: AA 00 03 09 00 05 EF 
+19:42:30:137	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:42:30:137	> Event: AA 00 03 06 00 05 F2 
+19:42:30:141	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:42:30:141	> Event: AA 00 03 0A 00 03 F0 
+19:42:30:145	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:42:30:145	> Event: AA 00 03 08 00 00 F5 
+19:42:30:157	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:42:30:158	> Event: AA 00 03 07 00 02 F4 
+19:42:30:161	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:42:30:161	> Event: AA 00 03 0B 00 01 F1 
+19:42:30:198	< Command: AA 00 02 14 01 E9 
+19:42:30:199	< Command: AA 00 03 16 00 00 E7 
+19:42:30:199	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:42:30:199	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:42:30:215	> Event: AA 00 03 00 16 00 E7 
+19:42:30:219	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:42:30:219	> Event: AA 00 03 0F 00 0C E2 
+19:42:30:239	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:42:30:243	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:42:30:366	< Command: AA 00 02 14 24 C6 
+
+19:42:30:366	> Event: AA 00 03 24 1B 00 BE 
+19:42:30:370	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:42:30:370	> Event: AA 00 03 2D 00 07 C9 
+19:42:30:838	< Command: AA 00 02 14 24 C6 
+
+19:42:30:838	> Event: AA 00 03 24 1B 00 BE 
+19:42:32:086	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:42:32:086	> Event: AA 00 03 01 0B 00 F1 
+19:42:32:107	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:42:32:107	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:42:32:168	< Command: AA 00 02 14 17 D3 
+19:42:32:193	< Command: AA 00 02 14 29 C1 
+19:42:36:999	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+19:42:37:015	> Event: AA 00 03 00 16 00 E7 
+19:42:37:015	< Command: AA 00 02 14 17 D3 
+19:42:37:020	< Command: AA 00 03 16 00 05 E2 
+19:42:37:020	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 7[BTM]
+19:42:37:020	> Event: AA 00 04 17 00 04 C7 1A 
+Command Complete.
+19:42:37:035	> Event: AA 00 03 00 16 00 E7 
+19:42:37:036	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 10[BTM]
+19:42:37:036	> Event: AA 00 04 17 00 05 0A D6 
+19:42:39:615	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+19:42:39:632	> Event: AA 00 03 00 16 00 E7 
+19:42:39:632	< Command: AA 00 02 14 17 D3 
+19:42:39:636	< Command: AA 00 03 16 00 05 E2 
+19:42:39:636	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 7[BTM]
+19:42:39:636	> Event: AA 00 04 17 00 04 C7 1A 
+Command Complete.
+19:42:39:652	> Event: AA 00 03 00 16 00 E7 
+19:42:39:652	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 10[BTM]
+19:42:39:653	> Event: AA 00 04 17 00 05 0A D6 
+19:42:41:066	< Command: AA 00 03 16 00 04 E3 
+Command Complete.
+19:42:41:082	> Event: AA 00 03 00 16 00 E7 
+19:42:41:082	< Command: AA 00 02 14 17 D3 
+19:42:41:087	< Command: AA 00 03 16 00 05 E2 
+19:42:41:087	< Command: AA 00 03 16 00 05 E2 
+Audio Gain Level : 7[BTM]
+19:42:41:087	> Event: AA 00 04 17 00 04 C7 1A 
+Command Complete.
+19:42:41:102	> Event: AA 00 03 00 16 00 E7 
+19:42:41:106	< Command: AA 00 02 14 17 D3 
+Line-in Gain Level : 10[BTM]
+19:42:41:107	> Event: AA 00 04 17 00 05 0A D6 
+19:42:49:967	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:42:49:967	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:42:49:995	< Command: AA 00 02 14 2D BD 
+19:42:50:003	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:42:50:003	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:42:50:200	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:42:50:200	> Event: AA 00 03 10 00 00 ED 
+19:42:50:208	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:42:50:208	> Event: AA 00 03 1B 04 01 DD 
+19:42:51:518	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:51:539	> Event: AA 00 03 00 23 00 DA 
+19:42:51:746	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:51:769	> Event: AA 00 03 00 23 00 DA 
+19:42:51:926	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:51:945	> Event: AA 00 03 00 23 00 DA 
+19:42:52:106	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:52:125	> Event: AA 00 03 00 23 00 DA 
+19:42:52:250	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:52:269	> Event: AA 00 03 00 23 00 DA 
+19:42:52:791	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:52:810	> Event: AA 00 03 00 23 00 DA 
+19:42:52:970	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:52:990	> Event: AA 00 03 00 23 00 DA 
+19:42:53:151	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:53:166	> Event: AA 00 03 00 23 00 DA 
+19:42:53:306	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:53:325	> Event: AA 00 03 00 23 00 DA 
+19:42:53:474	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+19:42:53:489	> Event: AA 00 03 00 23 00 DA 
+19:42:53:698	< Command: AA 00 02 14 24 C6 
+
+19:42:53:698	> Event: AA 00 03 24 0C 00 CD 
+19:42:54:100	< Command: AA 00 02 14 24 C6 
+
+19:42:54:100	> Event: AA 00 03 24 0C 00 CD 
+19:42:58:371	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+19:42:58:389	> Event: AA 00 03 00 23 00 DA 
+19:42:58:550	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+19:42:58:568	> Event: AA 00 03 00 23 00 DA 
+19:42:58:717	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+19:42:58:736	> Event: AA 00 03 00 23 00 DA 
+19:42:58:886	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+19:42:58:905	> Event: AA 00 03 00 23 00 DA 
+19:42:59:474	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+19:42:59:495	> Event: AA 00 03 00 23 00 DA 
+19:42:59:665	< Command: AA 00 07 23 00 01 02 FF FF FF D6 
+Command Complete.
+19:42:59:687	> Event: AA 00 03 00 23 00 DA 
+19:43:10:882	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:43:10:883	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:43:10:891	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+19:43:10:891	> Event: AA 00 03 01 07 00 F5 
+19:43:10:919	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+19:43:10:919	> Event: AA 00 03 01 0C 00 F0 
+19:43:10:923	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+19:43:10:924	> Event: AA 00 03 01 08 00 F4 
+19:43:10:928	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:43:10:929	> Event: AA 00 03 01 0F 00 ED 
+19:43:10:997	< Command: AA 00 02 14 01 E9 
+Device has no SPP/iAP link.
+19:43:10:997	> Event: AA 00 03 01 0E 18 D6 
+19:43:15:560	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:43:15:560	> Event: AA 00 03 1B 04 00 DE 
+19:44:12:765	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+19:44:12:781	> Event: AA 00 03 00 02 00 FB 
+19:44:12:785	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+19:44:12:785	> Event: AA 00 03 01 00 00 FC 
+19:44:12:789	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:44:12:789	> Event: AA 00 03 2D 00 07 C9 
+19:44:12:866	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+19:44:12:883	> Event: AA 00 03 00 02 00 FB 
+19:44:12:950	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:44:12:950	> Event: AA 00 03 1B 03 00 DF 
+19:44:13:596	< Command: AA 00 02 14 24 C6 
+
+19:44:13:596	> Event: AA 00 03 24 1F 00 BA 
+19:44:27:561	< Command: AA 00 03 02 00 51 AA 
+19:44:27:562	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+19:44:27:577	> Event: AA 00 03 00 02 00 FB 
+19:44:27:577	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:44:27:577	> Event: AA 00 03 2D 00 07 C9 
+19:44:27:581	< Command: AA 00 02 14 01 E9 
+Power on device.
+19:44:27:581	> Event: AA 00 03 01 02 00 FA 
+19:44:27:585	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:44:27:586	> Event: AA 00 03 01 0F 00 ED 
+19:44:27:589	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:44:27:589	> Event: AA 00 03 32 01 00 CA 
+19:44:28:387	< Command: AA 00 02 14 24 C6 
+
+19:44:28:387	> Event: AA 00 03 24 1E 00 BB 
+19:44:28:678	< Command: AA 00 02 14 23 C7 
+
+19:44:28:678	> Event: AA 00 03 23 00 00 DA 
+19:44:29:972	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:44:29:972	> Event: AA 00 03 09 00 05 EF 
+19:44:29:981	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:44:29:981	> Event: AA 00 03 06 00 05 F2 
+19:44:30:001	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:44:30:001	> Event: AA 00 03 0A 00 03 F0 
+19:44:30:038	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:44:30:038	> Event: AA 00 03 08 00 00 F5 
+19:44:30:046	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:44:30:046	> Event: AA 00 03 07 00 02 F4 
+19:44:30:050	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:44:30:050	> Event: AA 00 03 0B 00 01 F1 
+19:44:30:054	< Command: AA 00 02 14 01 E9 
+19:44:30:057	< Command: AA 00 03 16 00 00 E7 
+19:44:30:057	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:44:30:057	> Event: AA 00 04 01 05 00 01 F5 
+19:44:30:059	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:44:30:059	> Event: AA 00 03 0F 00 0C E2 
+Command Complete.
+19:44:30:063	> Event: AA 00 03 00 16 00 E7 
+19:44:30:083	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:44:30:090	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:44:31:132	< Command: AA 00 02 14 01 E9 
+19:44:31:133	< Command: AA 00 03 16 00 00 E7 
+19:44:31:133	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:44:31:133	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:44:31:148	> Event: AA 00 03 00 16 00 E7 
+19:44:31:157	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:44:31:157	> Event: AA 00 03 2D 00 07 C9 
+19:44:31:165	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:44:31:170	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:44:31:604	< Command: AA 00 02 14 24 C6 
+
+19:44:31:604	> Event: AA 00 03 24 1B 00 BE 
+19:44:31:967	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:44:31:967	> Event: AA 00 04 17 00 06 00 DF 
+19:44:33:684	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:44:33:684	> Event: AA 00 03 01 0B 00 F1 
+19:44:33:708	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:44:33:708	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:44:33:712	< Command: AA 00 02 14 17 D3 
+19:44:33:749	< Command: AA 00 02 14 29 C1 
+19:44:41:881	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+19:44:41:881	> Event: AA 00 03 01 07 00 F5 
+19:44:41:885	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+19:44:41:885	> Event: AA 00 03 01 08 00 F4 
+19:44:41:889	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+19:44:41:889	> Event: AA 00 03 01 0C 00 F0 
+19:44:41:893	< Command: AA 00 02 14 01 E9 
+ACL link was disconnected.
+19:44:41:893	> Event: AA 00 03 01 11 01 EA 
+19:44:41:897	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:44:41:898	> Event: AA 00 03 01 0F 00 ED 
+19:44:41:901	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:44:41:901	> Event: AA 00 03 2D 00 07 C9 
+19:44:42:475	< Command: AA 00 02 14 24 C6 
+
+19:44:42:475	> Event: AA 00 03 24 0F 00 CA 
+19:44:42:609	< Command: AA 00 02 14 23 C7 
+
+19:44:42:609	> Event: AA 00 03 23 00 00 DA 
+19:44:43:863	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:44:43:863	> Event: AA 00 03 09 00 05 EF 
+19:44:43:868	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:44:43:868	> Event: AA 00 03 06 00 05 F2 
+19:44:43:900	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:44:43:901	> Event: AA 00 03 0A 00 03 F0 
+19:44:43:904	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:44:43:904	> Event: AA 00 03 08 00 00 F5 
+19:44:43:908	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:44:43:909	> Event: AA 00 03 07 00 02 F4 
+19:44:43:913	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:44:43:913	> Event: AA 00 03 0B 00 01 F1 
+19:44:43:949	< Command: AA 00 02 14 01 E9 
+19:44:43:950	< Command: AA 00 03 16 00 00 E7 
+19:44:43:950	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:44:43:950	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:44:43:970	> Event: AA 00 03 00 16 00 E7 
+19:44:43:974	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:44:43:974	> Event: AA 00 03 0F 00 0C E2 
+19:44:43:995	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:44:43:995	> Event: AA 00 03 0A 00 04 EF 
+19:44:44:003	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:44:44:008	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:44:45:211	< Command: AA 00 02 14 01 E9 
+19:44:45:211	< Command: AA 00 03 16 00 00 E7 
+19:44:45:211	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:44:45:211	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:44:45:227	> Event: AA 00 03 00 16 00 E7 
+19:44:45:235	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:44:45:235	> Event: AA 00 03 2D 00 07 C9 
+19:44:45:243	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:44:45:248	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:44:45:682	< Command: AA 00 02 14 24 C6 
+
+19:44:45:682	> Event: AA 00 03 24 1B 00 BE 
+19:44:46:129	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:44:46:129	> Event: AA 00 04 17 00 06 00 DF 
+19:44:47:763	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:44:47:763	> Event: AA 00 03 01 0B 00 F1 
+19:44:47:775	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:44:47:775	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:44:55:263	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:44:55:263	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:44:55:308	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:44:55:308	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:44:55:312	< Command: AA 00 02 14 2D BD 
+19:44:55:513	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:44:55:513	> Event: AA 00 03 10 00 00 ED 
+19:44:55:521	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:44:55:521	> Event: AA 00 03 1B 04 01 DD 
+19:44:57:230	< Command: AA 00 02 14 29 C1 
+19:44:58:036	< Command: AA 00 02 14 29 C1 
+19:44:58:266	< Command: AA 00 02 14 29 C1 
+19:44:58:286	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:44:58:286	> Event: AA 00 03 0A 00 03 F0 
+19:44:58:601	< Command: AA 00 02 14 29 C1 
+19:44:58:782	< Command: AA 00 02 14 29 C1 
+19:44:58:975	< Command: AA 00 02 14 29 C1 
+19:44:59:155	< Command: AA 00 02 14 29 C1 
+19:44:59:311	< Command: AA 00 02 14 29 C1 
+19:45:00:326	< Command: AA 00 02 14 29 C1 
+19:45:00:678	< Command: AA 00 02 14 29 C1 
+19:45:00:724	< Command: AA 00 02 14 29 C1 
+19:45:00:773	< Command: AA 00 02 14 29 C1 
+19:45:00:822	< Command: AA 00 02 14 29 C1 
+19:45:00:875	< Command: AA 00 02 14 29 C1 
+19:45:00:945	< Command: AA 00 02 14 29 C1 
+19:45:00:982	< Command: AA 00 02 14 29 C1 
+19:45:01:874	< Command: AA 00 02 14 29 C1 
+19:45:08:522	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:45:08:522	> Event: AA 00 03 0A 00 04 EF 
+19:46:52:461	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:46:52:461	> Event: AA 00 03 30 00 00 CD 
+19:46:52:465	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:46:52:465	> Event: AA 00 03 2D 00 01 CF 
+19:46:52:469	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:46:52:470	> Event: AA 00 03 0D 01 00 EF 
+19:46:52:580	< Command: AA 00 02 14 0D DD 
+19:46:54:828	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:46:54:858	> Event: AA 00 03 00 02 00 FB 
+19:46:54:947	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:46:54:947	> Event: AA 00 03 0E 00 00 EF 
+19:46:55:156	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:46:55:157	> Event: AA 00 03 01 0F 00 ED 
+19:46:56:305	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:46:56:320	> Event: AA 00 03 00 02 00 FB 
+19:46:57:258	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+19:46:57:258	> Event: AA 00 03 01 01 00 FB 
+19:46:57:582	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:46:57:582	> Event: AA 00 03 32 01 00 CA 
+19:46:57:631	< Command: AA 00 02 14 24 C6 
+
+19:46:57:631	> Event: AA 00 03 24 1D 00 BC 
+19:47:07:843	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:47:07:844	> Event: AA 00 03 01 0F 00 ED 
+19:47:12:619	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:47:12:619	> Event: AA 00 03 01 03 00 F9 
+19:47:12:631	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:47:12:631	> Event: AA 00 03 2D 00 07 C9 
+19:47:12:926	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:47:12:926	> Event: AA 00 03 09 00 05 EF 
+19:47:12:930	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:47:12:930	> Event: AA 00 03 06 00 05 F2 
+19:47:12:942	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:47:12:943	> Event: AA 00 03 0A 00 04 EF 
+19:47:12:947	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:47:12:947	> Event: AA 00 03 08 00 00 F5 
+19:47:12:955	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:47:12:955	> Event: AA 00 03 07 00 02 F4 
+19:47:12:963	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:47:12:963	> Event: AA 00 03 0B 00 01 F1 
+19:47:13:024	< Command: AA 00 02 14 01 E9 
+19:47:13:027	< Command: AA 00 03 16 00 00 E7 
+19:47:13:027	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:47:13:027	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:47:13:045	> Event: AA 00 03 00 16 00 E7 
+19:47:13:065	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:47:13:066	> Event: AA 00 03 0F 00 0C E2 
+19:47:13:070	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:47:13:070	> Event: AA 00 03 0A 00 03 F0 
+19:47:13:074	< Command: AA 00 02 14 24 C6 
+
+19:47:13:074	> Event: AA 00 03 24 02 00 D7 
+19:47:13:098	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:47:13:102	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:47:13:119	< Command: AA 00 02 14 01 E9 
+19:47:13:120	< Command: AA 00 03 16 00 00 E7 
+19:47:13:120	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:47:13:120	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:47:13:143	> Event: AA 00 03 00 16 00 E7 
+19:47:13:143	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:47:13:143	> Event: AA 00 03 2D 00 07 C9 
+19:47:13:164	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:47:13:170	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:47:13:172	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:47:13:172	> Event: AA 00 04 17 00 06 00 DF 
+19:47:13:578	< Command: AA 00 02 14 24 C6 
+
+19:47:13:578	> Event: AA 00 03 24 1B 00 BE 
+19:47:15:544	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:47:15:544	> Event: AA 00 03 01 0B 00 F1 
+19:47:15:555	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:47:15:555	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:47:15:646	< Command: AA 00 02 14 17 D3 
+19:47:15:674	< Command: AA 00 02 14 29 C1 
+19:47:16:523	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:47:16:523	> Event: AA 00 03 0A 00 04 EF 
+19:47:19:176	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+19:47:19:198	> Event: AA 00 03 00 02 00 FB 
+19:47:19:198	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+19:47:19:198	> Event: AA 00 03 01 00 00 FC 
+19:47:19:202	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:47:19:202	> Event: AA 00 03 32 01 00 CA 
+19:47:19:206	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:47:19:206	> Event: AA 00 03 2D 00 07 C9 
+19:47:19:276	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+19:47:19:291	> Event: AA 00 03 00 02 00 FB 
+19:47:19:361	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:47:19:361	> Event: AA 00 03 1B 03 00 DF 
+19:47:19:422	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+19:47:19:422	> Event: AA 00 03 01 0C 00 F0 
+19:47:19:508	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+19:47:19:511	> Event: AA 00 03 01 07 00 F5 
+19:47:19:533	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+19:47:19:533	> Event: AA 00 03 01 08 00 F4 
+19:47:20:012	< Command: AA 00 02 14 24 C6 
+
+19:47:20:013	> Event: AA 00 03 24 1F 00 BA 
+19:47:26:472	< Command: AA 00 03 02 00 51 AA 
+19:47:26:473	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+19:47:26:489	> Event: AA 00 03 00 02 00 FB 
+19:47:26:489	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:47:26:489	> Event: AA 00 03 2D 00 07 C9 
+19:47:26:493	< Command: AA 00 02 14 01 E9 
+Power on device.
+19:47:26:493	> Event: AA 00 03 01 02 00 FA 
+19:47:26:497	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:47:26:499	> Event: AA 00 03 01 0F 00 ED 
+19:47:26:501	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:47:26:501	> Event: AA 00 03 32 01 00 CA 
+19:47:27:300	< Command: AA 00 02 14 24 C6 
+
+19:47:27:300	> Event: AA 00 03 24 1E 00 BB 
+19:47:27:701	< Command: AA 00 02 14 23 C7 
+
+19:47:27:702	> Event: AA 00 03 23 00 00 DA 
+19:47:29:004	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:47:29:004	> Event: AA 00 03 09 00 05 EF 
+19:47:29:008	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:47:29:008	> Event: AA 00 03 06 00 05 F2 
+19:47:29:012	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:47:29:012	> Event: AA 00 03 0A 00 04 EF 
+19:47:29:016	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:47:29:016	> Event: AA 00 03 08 00 00 F5 
+19:47:29:020	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:47:29:020	> Event: AA 00 03 07 00 02 F4 
+19:47:29:024	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:47:29:024	> Event: AA 00 03 0B 00 01 F1 
+19:47:29:287	< Command: AA 00 02 14 01 E9 
+19:47:29:287	< Command: AA 00 03 16 00 00 E7 
+19:47:29:287	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:47:29:287	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:47:29:295	> Event: AA 00 03 00 16 00 E7 
+19:47:29:295	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:47:29:295	> Event: AA 00 03 0F 00 0C E2 
+19:47:29:348	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:47:29:355	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:47:30:302	< Command: AA 00 02 14 01 E9 
+19:47:30:303	< Command: AA 00 03 16 00 00 E7 
+19:47:30:303	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:47:30:303	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:47:30:318	> Event: AA 00 03 00 16 00 E7 
+19:47:30:327	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:47:30:327	> Event: AA 00 03 2D 00 07 C9 
+19:47:30:335	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:47:30:339	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:47:30:794	< Command: AA 00 02 14 24 C6 
+
+19:47:30:794	> Event: AA 00 03 24 1B 00 BE 
+19:47:31:138	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:47:31:138	> Event: AA 00 04 17 00 06 00 DF 
+19:47:32:830	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:47:32:830	> Event: AA 00 03 01 0B 00 F1 
+19:47:32:842	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:47:32:842	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:47:32:895	< Command: AA 00 02 14 17 D3 
+19:52:47:009	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:52:47:009	> Event: AA 00 03 30 00 00 CD 
+19:52:47:013	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:52:47:013	> Event: AA 00 03 2D 00 01 CF 
+19:52:47:017	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:52:47:017	> Event: AA 00 03 0D 01 00 EF 
+19:52:47:127	< Command: AA 00 02 14 0D DD 
+19:52:54:653	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:52:54:939	> Event: AA 00 03 00 02 00 FB 
+19:52:54:980	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:52:54:980	> Event: AA 00 03 0E 00 00 EF 
+19:52:55:029	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:52:55:032	> Event: AA 00 03 01 0F 00 ED 
+19:53:40:492	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:53:40:506	> Event: AA 00 03 00 02 00 FB 
+19:53:41:444	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+19:53:41:444	> Event: AA 00 03 01 01 00 FB 
+19:53:41:448	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:53:41:448	> Event: AA 00 03 2D 00 07 C9 
+19:53:42:017	< Command: AA 00 02 14 24 C6 
+
+19:53:42:017	> Event: AA 00 03 24 1D 00 BC 
+19:53:42:054	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:53:42:054	> Event: AA 00 03 32 01 00 CA 
+19:53:49:956	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:53:49:957	> Event: AA 00 03 01 0F 00 ED 
+19:53:55:007	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:53:55:007	> Event: AA 00 03 01 03 00 F9 
+19:53:55:028	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:53:55:028	> Event: AA 00 03 2D 00 07 C9 
+19:53:55:363	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:53:55:363	> Event: AA 00 03 09 00 05 EF 
+19:53:55:371	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:53:55:371	> Event: AA 00 03 06 00 05 F2 
+19:53:55:383	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:53:55:383	> Event: AA 00 03 0A 00 03 F0 
+19:53:55:391	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:53:55:391	> Event: AA 00 03 08 00 00 F5 
+19:53:55:399	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:53:55:400	> Event: AA 00 03 07 00 02 F4 
+19:53:55:404	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:53:55:404	> Event: AA 00 03 0B 00 01 F1 
+19:53:55:408	< Command: AA 00 02 14 24 C6 
+
+19:53:55:408	> Event: AA 00 03 24 02 00 D7 
+19:53:55:445	< Command: AA 00 02 14 01 E9 
+19:53:55:445	< Command: AA 00 03 16 00 00 E7 
+19:53:55:445	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:53:55:445	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:53:55:481	> Event: AA 00 03 00 16 00 E7 
+19:53:55:486	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:53:55:486	> Event: AA 00 03 0F 00 0C E2 
+19:53:55:506	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:53:55:518	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:53:55:572	< Command: AA 00 02 14 01 E9 
+19:53:55:573	< Command: AA 00 03 16 00 00 E7 
+19:53:55:573	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:53:55:573	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:53:55:601	> Event: AA 00 03 00 16 00 E7 
+19:53:55:601	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:53:55:601	> Event: AA 00 03 2D 00 07 C9 
+19:53:55:634	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:53:55:638	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:53:55:646	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:53:55:646	> Event: AA 00 04 17 00 06 00 DF 
+19:53:56:039	< Command: AA 00 02 14 24 C6 
+
+19:53:56:039	> Event: AA 00 03 24 1B 00 BE 
+19:53:58:116	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:53:58:116	> Event: AA 00 03 01 0B 00 F1 
+19:53:58:128	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:53:58:128	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:53:58:210	< Command: AA 00 02 14 17 D3 
+19:53:58:243	< Command: AA 00 02 14 29 C1 
+19:54:00:331	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:54:00:331	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:54:00:844	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:54:00:844	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:54:00:967	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:54:00:967	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:54:00:975	< Command: AA 00 02 14 2D BD 
+19:54:00:983	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:54:00:983	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:54:01:184	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:54:01:184	> Event: AA 00 03 10 00 00 ED 
+19:54:01:192	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:54:01:192	> Event: AA 00 03 1B 04 01 DD 
+19:54:03:347	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:54:03:347	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:54:03:372	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:54:03:372	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:54:06:210	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:54:06:210	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:54:06:235	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:54:06:235	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:54:10:855	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:54:10:855	> Event: AA 00 03 1B 04 00 DE 
+19:54:12:564	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+19:54:12:583	> Event: AA 00 03 00 02 00 FB 
+19:54:12:588	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+19:54:12:588	> Event: AA 00 03 01 00 00 FC 
+19:54:12:596	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:54:12:596	> Event: AA 00 03 32 01 00 CA 
+19:54:12:600	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:54:12:600	> Event: AA 00 03 2D 00 07 C9 
+19:54:12:624	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+19:54:12:624	> Event: AA 00 03 01 0C 00 F0 
+19:54:12:661	< Command: AA 00 02 14 01 E9 
+19:54:12:665	< Command: AA 00 03 02 00 54 A7 
+19:54:12:665	< Command: AA 00 03 02 00 54 A7 
+Device has no HF link
+19:54:12:665	> Event: AA 00 03 01 07 00 F5 
+Command Complete.
+19:54:12:674	> Event: AA 00 03 00 02 00 FB 
+19:54:12:678	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+19:54:12:678	> Event: AA 00 03 01 08 00 F4 
+19:54:12:752	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:54:12:752	> Event: AA 00 03 1B 03 00 DF 
+19:54:13:403	< Command: AA 00 02 14 24 C6 
+
+19:54:13:403	> Event: AA 00 03 24 1F 00 BA 
+19:54:22:083	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+19:54:22:083	> Event: AA 00 03 30 00 00 CD 
+19:54:22:087	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:54:22:087	> Event: AA 00 03 2D 00 01 CF 
+19:54:22:091	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+19:54:22:092	> Event: AA 00 03 0D 01 00 EF 
+19:54:22:202	< Command: AA 00 02 14 0D DD 
+19:54:39:504	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+19:54:39:517	> Event: AA 00 03 00 02 00 FB 
+19:55:03:167	< Command: AA 00 03 02 00 56 A5 
+Command Complete.
+19:55:03:455	> Event: AA 00 03 00 02 00 FB 
+19:55:03:496	< Command: AA 00 02 14 0E DC 
+Master Reset.[BTM]
+19:55:03:496	> Event: AA 00 03 0E 00 00 EF 
+19:55:03:546	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:55:03:547	> Event: AA 00 03 01 0F 00 ED 
+19:55:09:106	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+19:55:09:125	> Event: AA 00 03 00 02 00 FB 
+19:55:09:125	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+19:55:09:125	> Event: AA 00 03 01 00 00 FC 
+19:55:09:129	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:09:129	> Event: AA 00 03 2D 00 07 C9 
+19:55:09:207	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+19:55:09:223	> Event: AA 00 03 00 02 00 FB 
+19:55:09:289	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:55:09:289	> Event: AA 00 03 1B 03 00 DF 
+19:55:09:940	< Command: AA 00 02 14 24 C6 
+
+19:55:09:940	> Event: AA 00 03 24 1F 00 BA 
+19:55:15:611	< Command: AA 00 03 02 00 5E 9D 
+Command Complete.
+19:55:15:629	> Event: AA 00 03 00 02 00 FB 
+19:55:15:634	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:15:634	> Event: AA 00 03 2D 00 07 C9 
+19:55:15:695	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:55:15:695	> Event: AA 00 03 1B 03 00 DF 
+19:55:16:432	< Command: AA 00 02 14 24 C6 
+
+19:55:16:432	> Event: AA 00 03 24 1F 00 BA 
+19:55:22:078	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+19:55:22:097	> Event: AA 00 03 00 02 00 FB 
+19:55:22:097	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:22:097	> Event: AA 00 03 2D 00 07 C9 
+19:55:22:179	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+19:55:22:195	> Event: AA 00 03 00 02 00 FB 
+19:55:22:261	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:55:22:261	> Event: AA 00 03 1B 03 00 DF 
+19:55:22:913	< Command: AA 00 02 14 24 C6 
+
+19:55:22:913	> Event: AA 00 03 24 1F 00 BA 
+19:55:25:809	< Command: AA 00 03 02 00 51 AA 
+19:55:25:810	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+19:55:25:825	> Event: AA 00 03 00 02 00 FB 
+19:55:25:825	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:25:825	> Event: AA 00 03 2D 00 07 C9 
+19:55:25:829	< Command: AA 00 02 14 01 E9 
+Device is under pairing mode
+19:55:25:829	> Event: AA 00 03 01 01 00 FB 
+19:55:25:833	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:55:25:833	> Event: AA 00 03 32 01 00 CA 
+19:55:26:636	< Command: AA 00 02 14 24 C6 
+
+19:55:26:636	> Event: AA 00 03 24 1E 00 BB 
+19:55:26:640	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:26:640	> Event: AA 00 03 2D 00 07 C9 
+19:55:27:209	< Command: AA 00 02 14 24 C6 
+
+19:55:27:209	> Event: AA 00 03 24 1D 00 BC 
+19:55:35:263	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:55:35:264	> Event: AA 00 03 01 0F 00 ED 
+19:55:38:822	< Command: AA 00 02 14 01 E9 
+Device is pairing successfully.
+19:55:38:822	> Event: AA 00 03 01 03 00 F9 
+19:55:38:838	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:38:838	> Event: AA 00 03 2D 00 07 C9 
+19:55:39:084	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:55:39:084	> Event: AA 00 03 09 00 05 EF 
+19:55:39:093	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:55:39:093	> Event: AA 00 03 06 00 05 F2 
+19:55:39:097	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:55:39:097	> Event: AA 00 03 0A 00 03 F0 
+19:55:39:101	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:55:39:101	> Event: AA 00 03 08 00 00 F5 
+19:55:39:105	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:55:39:106	> Event: AA 00 03 07 00 02 F4 
+19:55:39:113	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:55:39:113	> Event: AA 00 03 0B 00 01 F1 
+19:55:39:170	< Command: AA 00 02 14 01 E9 
+19:55:39:171	< Command: AA 00 03 16 00 00 E7 
+19:55:39:171	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:55:39:171	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:55:39:195	> Event: AA 00 03 00 16 00 E7 
+19:55:39:199	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:55:39:199	> Event: AA 00 03 0F 00 0C E2 
+19:55:39:216	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:55:39:220	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:55:39:220	< Command: AA 00 02 14 24 C6 
+
+19:55:39:220	> Event: AA 00 03 24 02 00 D7 
+19:55:39:252	< Command: AA 00 02 14 01 E9 
+19:55:39:253	< Command: AA 00 03 16 00 00 E7 
+19:55:39:253	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:55:39:253	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:55:39:273	> Event: AA 00 03 00 16 00 E7 
+19:55:39:277	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:39:277	> Event: AA 00 03 2D 00 07 C9 
+19:55:39:302	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:55:39:308	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:55:39:310	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:55:39:310	> Event: AA 00 04 17 00 06 00 DF 
+19:55:39:728	< Command: AA 00 02 14 24 C6 
+
+19:55:39:728	> Event: AA 00 03 24 1B 00 BE 
+19:55:41:489	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:55:41:489	> Event: AA 00 03 01 0B 00 F1 
+19:55:41:535	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:55:41:535	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:55:41:563	< Command: AA 00 02 14 17 D3 
+19:55:41:584	< Command: AA 00 02 14 29 C1 
+19:55:43:461	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+19:55:43:479	> Event: AA 00 03 00 02 00 FB 
+19:55:43:479	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+19:55:43:479	> Event: AA 00 03 01 00 00 FC 
+19:55:43:483	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:55:43:483	> Event: AA 00 03 32 01 00 CA 
+19:55:43:487	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:43:487	> Event: AA 00 03 2D 00 07 C9 
+19:55:43:562	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+19:55:43:578	> Event: AA 00 03 00 02 00 FB 
+19:55:43:623	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+19:55:43:623	> Event: AA 00 03 01 0C 00 F0 
+19:55:43:635	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:55:43:635	> Event: AA 00 03 1B 03 00 DF 
+19:55:43:701	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+19:55:43:703	> Event: AA 00 03 01 07 00 F5 
+19:55:43:705	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+19:55:43:705	> Event: AA 00 03 01 08 00 F4 
+19:55:44:291	< Command: AA 00 02 14 24 C6 
+
+19:55:44:291	> Event: AA 00 03 24 1F 00 BA 
+19:55:45:057	< Command: AA 00 03 02 00 5E 9D 
+Command Complete.
+19:55:45:078	> Event: AA 00 03 00 02 00 FB 
+19:55:45:082	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:45:082	> Event: AA 00 03 2D 00 07 C9 
+19:55:45:139	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+19:55:45:139	> Event: AA 00 03 1B 03 00 DF 
+19:55:45:884	< Command: AA 00 02 14 24 C6 
+
+19:55:45:884	> Event: AA 00 03 24 1F 00 BA 
+19:55:47:360	< Command: AA 00 03 02 00 51 AA 
+19:55:47:360	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+19:55:47:376	> Event: AA 00 03 00 02 00 FB 
+19:55:47:376	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:47:376	> Event: AA 00 03 2D 00 07 C9 
+19:55:47:380	< Command: AA 00 02 14 01 E9 
+Power on device.
+19:55:47:380	> Event: AA 00 03 01 02 00 FA 
+19:55:47:384	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+19:55:47:386	> Event: AA 00 03 01 0F 00 ED 
+19:55:47:388	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+19:55:47:388	> Event: AA 00 03 32 01 00 CA 
+19:55:48:174	< Command: AA 00 02 14 23 C7 
+
+19:55:48:174	> Event: AA 00 03 23 00 00 DA 
+19:55:48:178	< Command: AA 00 02 14 24 C6 
+
+19:55:48:178	> Event: AA 00 03 24 1E 00 BB 
+19:55:49:420	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+19:55:49:420	> Event: AA 00 03 09 00 05 EF 
+19:55:49:424	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+19:55:49:424	> Event: AA 00 03 06 00 05 F2 
+19:55:49:457	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:55:49:457	> Event: AA 00 03 0A 00 03 F0 
+19:55:49:469	< Command: AA 00 02 14 08 E2 
+No Roaming.
+19:55:49:469	> Event: AA 00 03 08 00 00 F5 
+19:55:49:514	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+19:55:49:514	> Event: AA 00 03 07 00 02 F4 
+19:55:49:518	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+19:55:49:518	> Event: AA 00 03 0B 00 01 F1 
+19:55:49:526	< Command: AA 00 02 14 01 E9 
+19:55:49:527	< Command: AA 00 03 16 00 00 E7 
+19:55:49:527	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+19:55:49:527	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+19:55:49:534	> Event: AA 00 03 00 16 00 E7 
+19:55:49:534	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+19:55:49:535	> Event: AA 00 03 0F 00 0C E2 
+19:55:49:543	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:55:49:554	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:55:50:455	< Command: AA 00 02 14 01 E9 
+19:55:50:456	< Command: AA 00 03 16 00 00 E7 
+19:55:50:456	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+19:55:50:456	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+19:55:50:472	> Event: AA 00 03 00 16 00 E7 
+19:55:50:476	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+19:55:50:476	> Event: AA 00 03 2D 00 07 C9 
+19:55:50:484	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+19:55:50:489	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+19:55:50:927	< Command: AA 00 02 14 24 C6 
+
+19:55:50:927	> Event: AA 00 03 24 1B 00 BE 
+19:55:51:349	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+19:55:51:349	> Event: AA 00 04 17 00 06 00 DF 
+19:55:53:012	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+19:55:53:012	> Event: AA 00 03 01 0B 00 F1 
+19:55:53:016	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:55:53:016	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:55:53:069	< Command: AA 00 02 14 17 D3 
+19:56:04:051	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:56:04:052	> Event: AA 00 03 0A 00 04 EF 
+19:56:06:554	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:56:06:554	> Event: AA 00 03 0A 00 03 F0 
+19:56:12:051	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:56:12:051	> Event: AA 00 03 0A 00 04 EF 
+19:56:31:558	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:56:31:558	> Event: AA 00 03 0A 00 03 F0 
+19:56:31:566	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:31:566	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:56:31:594	< Command: AA 00 02 14 2D BD 
+19:56:31:603	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:31:603	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:56:31:795	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+19:56:31:795	> Event: AA 00 03 10 00 00 ED 
+19:56:31:799	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+19:56:31:799	> Event: AA 00 03 1B 04 01 DD 
+19:56:34:629	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+19:56:34:630	> Event: AA 00 03 0A 00 04 EF 
+19:56:34:847	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:34:847	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:56:34:855	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:34:855	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:56:36:784	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:56:36:784	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:56:36:805	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:56:36:805	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:56:38:820	< Command: AA 00 02 14 29 C1 
+19:56:39:169	< Command: AA 00 02 14 29 C1 
+19:56:39:214	< Command: AA 00 02 14 29 C1 
+19:56:39:271	< Command: AA 00 02 14 29 C1 
+19:56:39:316	< Command: AA 00 02 14 29 C1 
+19:56:39:369	< Command: AA 00 02 14 29 C1 
+19:56:39:414	< Command: AA 00 02 14 29 C1 
+19:56:39:471	< Command: AA 00 02 14 29 C1 
+19:56:40:757	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:56:40:757	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+19:56:40:761	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+19:56:40:761	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+19:56:40:798	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:40:798	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:56:40:819	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:40:819	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:56:43:891	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:43:891	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+02 DC 
+19:56:43:924	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+19:56:43:924	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+19:56:48:651	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+19:56:48:652	> Event: AA 00 03 1B 04 00 DE 
+20:01:23:342	< Command: AA 00 03 02 00 51 AA 
+20:01:23:342	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+20:01:23:358	> Event: AA 00 03 00 02 00 FB 
+20:01:23:358	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+20:01:23:358	> Event: AA 00 03 2D 00 07 C9 
+20:01:23:362	< Command: AA 00 02 14 01 E9 
+Power on device.
+20:01:23:362	> Event: AA 00 03 01 02 00 FA 
+20:01:23:366	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+20:01:23:367	> Event: AA 00 03 01 0F 00 ED 
+20:01:23:371	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+20:01:23:371	> Event: AA 00 03 32 01 00 CA 
+20:01:23:539	< Command: AA 00 02 14 23 C7 
+
+20:01:23:539	> Event: AA 00 03 23 00 00 DA 
+20:01:24:166	< Command: AA 00 02 14 24 C6 
+
+20:01:24:166	> Event: AA 00 03 24 1E 00 BB 
+20:01:24:826	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+20:01:24:826	> Event: AA 00 03 09 00 05 EF 
+20:01:24:830	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+20:01:24:830	> Event: AA 00 03 06 00 05 F2 
+20:01:24:838	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+20:01:24:838	> Event: AA 00 03 0A 00 04 EF 
+20:01:24:842	< Command: AA 00 02 14 08 E2 
+No Roaming.
+20:01:24:842	> Event: AA 00 03 08 00 00 F5 
+20:01:24:863	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+20:01:24:863	> Event: AA 00 03 07 00 02 F4 
+20:01:24:882	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+20:01:24:882	> Event: AA 00 03 0B 00 01 F1 
+20:01:24:898	< Command: AA 00 02 14 01 E9 
+20:01:24:899	< Command: AA 00 03 16 00 00 E7 
+20:01:24:899	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+20:01:24:899	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+20:01:24:907	> Event: AA 00 03 00 16 00 E7 
+20:01:24:907	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+20:01:24:907	> Event: AA 00 03 0F 00 0C E2 
+20:01:24:915	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+20:01:24:924	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+20:01:26:566	< Command: AA 00 02 14 01 E9 
+20:01:26:567	< Command: AA 00 03 16 00 00 E7 
+20:01:26:567	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+20:01:26:567	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+20:01:26:583	> Event: AA 00 03 00 16 00 E7 
+20:01:26:591	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+20:01:26:591	> Event: AA 00 03 2D 00 07 C9 
+20:01:26:599	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+20:01:26:606	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+20:01:27:038	< Command: AA 00 02 14 24 C6 
+
+20:01:27:038	> Event: AA 00 03 24 1B 00 BE 
+20:01:27:405	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+20:01:27:405	> Event: AA 00 04 17 00 06 00 DF 
+20:01:28:647	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+20:01:28:647	> Event: AA 00 03 01 0B 00 F1 
+20:01:28:668	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+20:01:28:668	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+20:01:28:688	< Command: AA 00 02 14 17 D3 
+20:01:29:978	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+20:01:29:999	> Event: AA 00 03 00 02 00 FB 
+20:01:29:999	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+20:01:29:999	> Event: AA 00 03 01 00 00 FC 
+20:01:30:003	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+20:01:30:003	> Event: AA 00 03 32 01 00 CA 
+20:01:30:007	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+20:01:30:007	> Event: AA 00 03 2D 00 07 C9 
+20:01:30:036	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+20:01:30:036	> Event: AA 00 03 01 0C 00 F0 
+20:01:30:079	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+20:01:30:089	> Event: AA 00 03 00 02 00 FB 
+20:01:30:097	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+20:01:30:097	> Event: AA 00 03 01 08 00 F4 
+20:01:30:118	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+20:01:30:118	> Event: AA 00 03 01 07 00 F5 
+20:01:30:163	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+20:01:30:163	> Event: AA 00 03 1B 03 00 DF 
+20:01:30:810	< Command: AA 00 02 14 24 C6 
+
+20:01:30:810	> Event: AA 00 03 24 1F 00 BA 
+20:01:36:961	< Command: AA 00 03 02 00 5E 9D 
+Command Complete.
+20:01:36:978	> Event: AA 00 03 00 02 00 FB 
+20:01:36:982	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+20:01:36:982	> Event: AA 00 03 2D 00 07 C9 
+20:01:37:048	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+20:01:37:048	> Event: AA 00 03 1B 03 00 DF 
+20:01:37:794	< Command: AA 00 02 14 24 C6 
+
+20:01:37:794	> Event: AA 00 03 24 1F 00 BA 
+20:01:40:682	< Command: AA 00 03 02 00 51 AA 
+20:01:40:682	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+20:01:40:698	> Event: AA 00 03 00 02 00 FB 
+20:01:40:698	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+20:01:40:698	> Event: AA 00 03 2D 00 07 C9 
+20:01:40:702	< Command: AA 00 02 14 01 E9 
+Power on device.
+20:01:40:702	> Event: AA 00 03 01 02 00 FA 
+20:01:40:706	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+20:01:40:707	> Event: AA 00 03 01 0F 00 ED 
+20:01:40:710	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+20:01:40:710	> Event: AA 00 03 32 01 00 CA 
+20:01:41:509	< Command: AA 00 02 14 24 C6 
+
+20:01:41:509	> Event: AA 00 03 24 1E 00 BB 
+20:01:41:682	< Command: AA 00 02 14 23 C7 
+
+20:01:41:682	> Event: AA 00 03 23 00 00 DA 
+20:01:42:935	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+20:01:42:935	> Event: AA 00 03 09 00 05 EF 
+20:01:42:943	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+20:01:42:943	> Event: AA 00 03 06 00 05 F2 
+20:01:42:963	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+20:01:42:966	> Event: AA 00 03 0A 00 04 EF 
+20:01:42:984	< Command: AA 00 02 14 08 E2 
+No Roaming.
+20:01:42:984	> Event: AA 00 03 08 00 00 F5 
+20:01:43:004	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+20:01:43:005	> Event: AA 00 03 07 00 02 F4 
+20:01:43:013	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+20:01:43:013	> Event: AA 00 03 0B 00 01 F1 
+20:01:43:017	< Command: AA 00 02 14 01 E9 
+20:01:43:017	< Command: AA 00 03 16 00 00 E7 
+20:01:43:017	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+20:01:43:017	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+20:01:43:025	> Event: AA 00 03 00 16 00 E7 
+20:01:43:025	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+20:01:43:025	> Event: AA 00 03 0F 00 0C E2 
+20:01:43:033	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+20:01:43:038	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+20:01:43:987	< Command: AA 00 02 14 01 E9 
+20:01:43:988	< Command: AA 00 03 16 00 00 E7 
+20:01:43:988	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+20:01:43:988	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+20:01:44:003	> Event: AA 00 03 00 16 00 E7 
+20:01:44:012	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+20:01:44:012	> Event: AA 00 03 2D 00 07 C9 
+20:01:44:020	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+20:01:44:024	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+20:01:44:467	< Command: AA 00 02 14 24 C6 
+
+20:01:44:467	> Event: AA 00 03 24 1B 00 BE 
+20:01:44:901	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+20:01:44:901	> Event: AA 00 04 17 00 06 00 DF 
+20:01:46:568	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+20:01:46:568	> Event: AA 00 03 01 0B 00 F1 
+20:01:46:581	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PAUSED.
+
+20:01:46:581	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+02 DA 
+20:01:46:654	< Command: AA 00 02 14 17 D3 
+20:02:20:904	< Command: AA 00 03 02 00 51 AA 
+20:02:20:904	< Command: AA 00 03 02 00 52 A9 
+22:58:37:010	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+22:58:37:010	> Event: AA 00 03 30 00 00 CD 
+22:58:37:014	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+22:58:37:014	> Event: AA 00 03 2D 00 01 CF 
+22:58:37:018	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+22:58:37:018	> Event: AA 00 03 0D 01 00 EF 
+22:58:37:961	< Command: AA 00 02 14 0D DD 
+22:58:46:670	< Command: AA 00 03 02 00 5D 9E 
+Command Complete.
+22:58:46:686	> Event: AA 00 03 00 02 00 FB 
+22:59:08:424	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+22:59:08:440	> Event: AA 00 03 00 02 00 FB 
+22:59:08:440	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+22:59:08:440	> Event: AA 00 03 2D 00 07 C9 
+22:59:08:525	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+22:59:08:543	> Event: AA 00 03 00 02 00 FB 
+22:59:08:608	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+22:59:08:608	> Event: AA 00 03 1B 03 00 DF 
+22:59:09:256	< Command: AA 00 02 14 24 C6 
+
+22:59:09:256	> Event: AA 00 03 24 1F 00 BA 
+22:59:12:109	< Command: AA 00 03 02 00 51 AA 
+22:59:12:109	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+22:59:12:123	> Event: AA 00 03 00 02 00 FB 
+22:59:12:127	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+22:59:12:127	> Event: AA 00 03 2D 00 07 C9 
+22:59:12:131	< Command: AA 00 02 14 01 E9 
+Power on device.
+22:59:12:131	> Event: AA 00 03 01 02 00 FA 
+22:59:12:135	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+22:59:12:136	> Event: AA 00 03 01 0F 00 ED 
+22:59:12:139	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+22:59:12:139	> Event: AA 00 03 32 01 00 CA 
+22:59:12:393	< Command: AA 00 02 14 23 C7 
+
+22:59:12:393	> Event: AA 00 03 23 00 00 DA 
+22:59:12:935	< Command: AA 00 02 14 24 C6 
+
+22:59:12:935	> Event: AA 00 03 24 1E 00 BB 
+22:59:13:655	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+22:59:13:655	> Event: AA 00 03 09 00 05 EF 
+22:59:13:659	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+22:59:13:659	> Event: AA 00 03 06 00 05 F2 
+22:59:13:692	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+22:59:13:692	> Event: AA 00 03 0A 00 04 EF 
+22:59:13:712	< Command: AA 00 02 14 08 E2 
+No Roaming.
+22:59:13:712	> Event: AA 00 03 08 00 00 F5 
+22:59:13:729	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+22:59:13:729	> Event: AA 00 03 07 00 02 F4 
+22:59:13:749	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+22:59:13:749	> Event: AA 00 03 0B 00 01 F1 
+22:59:13:753	< Command: AA 00 02 14 01 E9 
+22:59:13:754	< Command: AA 00 03 16 00 00 E7 
+22:59:13:754	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+22:59:13:754	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+22:59:13:762	> Event: AA 00 03 00 16 00 E7 
+22:59:13:762	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+22:59:13:763	> Event: AA 00 03 0F 00 0C E2 
+22:59:13:770	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+22:59:13:770	> Event: AA 00 03 0A 00 03 F0 
+22:59:13:778	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+22:59:13:783	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+22:59:14:867	< Command: AA 00 02 14 01 E9 
+22:59:14:868	< Command: AA 00 03 16 00 00 E7 
+22:59:14:868	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+22:59:14:868	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+22:59:14:888	> Event: AA 00 03 00 16 00 E7 
+22:59:14:892	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+22:59:14:892	> Event: AA 00 03 2D 00 07 C9 
+22:59:14:900	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+22:59:14:904	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+22:59:15:339	< Command: AA 00 02 14 24 C6 
+
+22:59:15:339	> Event: AA 00 03 24 1B 00 BE 
+22:59:15:761	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+22:59:15:761	> Event: AA 00 04 17 00 06 00 DF 
+22:59:17:403	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+22:59:17:403	> Event: AA 00 03 01 0B 00 F1 
+22:59:17:416	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+22:59:17:416	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+22:59:17:489	< Command: AA 00 02 14 17 D3 
+22:59:17:522	< Command: AA 00 02 14 29 C1 
+22:59:35:017	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+22:59:35:017	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+22:59:35:022	< Command: AA 00 02 14 2D BD 
+22:59:35:030	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+22:59:35:030	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+22:59:35:221	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+22:59:35:221	> Event: AA 00 03 10 00 00 ED 
+22:59:35:225	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+22:59:35:225	> Event: AA 00 03 1B 04 01 DD 
+22:59:37:155	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+22:59:37:155	> Event: AA 00 03 0A 00 04 EF 
+22:59:37:175	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+22:59:37:176	> Event: AA 00 03 0D 03 00 ED 
+22:59:38:253	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+22:59:38:253	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+22:59:38:286	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+22:59:38:286	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+22:59:40:494	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+22:59:40:494	> Event: AA 00 03 0A 00 03 F0 
+22:59:42:939	< Command: AA 00 02 14 1B CF 
+A2DP CODEC stop.
+22:59:42:939	> Event: AA 00 03 1B 04 00 DE 
+23:00:51:919	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+23:00:51:937	> Event: AA 00 03 00 02 00 FB 
+23:00:51:941	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+23:00:51:941	> Event: AA 00 03 01 00 00 FC 
+23:00:51:945	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+23:00:51:945	> Event: AA 00 03 32 01 00 CA 
+23:00:51:949	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:00:51:949	> Event: AA 00 03 2D 00 07 C9 
+23:00:52:020	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+23:00:52:035	> Event: AA 00 03 00 02 00 FB 
+23:00:52:105	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+23:00:52:105	> Event: AA 00 03 1B 03 00 DF 
+23:00:52:302	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+23:00:52:302	> Event: AA 00 03 01 0C 00 F0 
+23:00:52:310	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+23:00:52:310	> Event: AA 00 03 01 08 00 F4 
+23:00:52:314	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+23:00:52:314	> Event: AA 00 03 01 07 00 F5 
+23:00:52:747	< Command: AA 00 02 14 24 C6 
+
+23:00:52:747	> Event: AA 00 03 24 1F 00 BA 
+23:00:56:262	< Command: AA 00 03 02 00 51 AA 
+23:00:56:263	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+23:00:56:278	> Event: AA 00 03 00 02 00 FB 
+23:00:56:278	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:00:56:278	> Event: AA 00 03 2D 00 07 C9 
+23:00:56:282	< Command: AA 00 02 14 01 E9 
+Power on device.
+23:00:56:282	> Event: AA 00 03 01 02 00 FA 
+23:00:56:286	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+23:00:56:287	> Event: AA 00 03 01 0F 00 ED 
+23:00:56:290	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+23:00:56:290	> Event: AA 00 03 32 01 00 CA 
+23:00:57:090	< Command: AA 00 02 14 24 C6 
+
+23:00:57:090	> Event: AA 00 03 24 1E 00 BB 
+23:00:57:614	< Command: AA 00 02 14 23 C7 
+
+23:00:57:614	> Event: AA 00 03 23 00 00 DA 
+23:00:58:892	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+23:00:58:892	> Event: AA 00 03 09 00 05 EF 
+23:00:58:900	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+23:00:58:900	> Event: AA 00 03 06 00 05 F2 
+23:00:58:925	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+23:00:58:925	> Event: AA 00 03 0A 00 03 F0 
+23:00:58:958	< Command: AA 00 02 14 08 E2 
+No Roaming.
+23:00:58:958	> Event: AA 00 03 08 00 00 F5 
+23:00:58:962	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+23:00:58:962	> Event: AA 00 03 07 00 02 F4 
+23:00:58:970	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+23:00:58:970	> Event: AA 00 03 0B 00 01 F1 
+23:00:58:974	< Command: AA 00 02 14 01 E9 
+23:00:58:975	< Command: AA 00 03 16 00 00 E7 
+23:00:58:975	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+23:00:58:975	> Event: AA 00 04 01 05 00 01 F5 
+Command Complete.
+23:00:58:982	> Event: AA 00 03 00 16 00 E7 
+23:00:58:982	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+23:00:58:983	> Event: AA 00 03 0F 00 0C E2 
+23:00:58:990	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+23:00:58:998	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+23:00:59:634	< Command: AA 00 02 14 01 E9 
+23:00:59:634	< Command: AA 00 03 16 00 00 E7 
+23:00:59:634	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+23:00:59:634	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+23:00:59:650	> Event: AA 00 03 00 16 00 E7 
+23:00:59:654	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:00:59:654	> Event: AA 00 03 2D 00 07 C9 
+23:00:59:663	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+23:00:59:669	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+23:01:00:104	< Command: AA 00 02 14 24 C6 
+
+23:01:00:104	> Event: AA 00 03 24 1B 00 BE 
+23:01:00:493	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+23:01:00:493	> Event: AA 00 04 17 00 06 00 DF 
+23:01:02:218	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+23:01:02:218	> Event: AA 00 03 01 0B 00 F1 
+23:01:02:231	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+23:01:02:231	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+23:01:02:279	< Command: AA 00 02 14 17 D3 
+23:01:10:806	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:10:820	> Event: AA 00 03 00 23 00 DA 
+23:01:13:134	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:13:151	> Event: AA 00 03 00 23 00 DA 
+23:01:13:889	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:13:905	> Event: AA 00 03 00 23 00 DA 
+23:01:14:093	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:14:109	> Event: AA 00 03 00 23 00 DA 
+23:01:14:274	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:14:289	> Event: AA 00 03 00 23 00 DA 
+23:01:14:466	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:14:482	> Event: AA 00 03 00 23 00 DA 
+23:01:14:645	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:14:658	> Event: AA 00 03 00 23 00 DA 
+23:01:15:881	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:01:15:899	> Event: AA 00 03 00 23 00 DA 
+23:01:37:061	< Command: AA 00 03 02 00 53 A8 
+Command Complete.
+23:01:37:081	> Event: AA 00 03 00 02 00 FB 
+23:01:37:081	< Command: AA 00 02 14 01 E9 
+Device is under off mode.
+23:01:37:081	> Event: AA 00 03 01 00 00 FC 
+23:01:37:085	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+23:01:37:086	> Event: AA 00 03 32 01 00 CA 
+23:01:37:090	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:01:37:090	> Event: AA 00 03 2D 00 07 C9 
+23:01:37:162	< Command: AA 00 03 02 00 54 A7 
+Command Complete.
+23:01:37:180	> Event: AA 00 03 00 02 00 FB 
+23:01:37:245	< Command: AA 00 02 14 1B CF 
+EEProm update successful
+23:01:37:245	> Event: AA 00 03 1B 03 00 DF 
+23:01:37:795	< Command: AA 00 02 14 01 E9 
+Device has no AVRCP link.
+23:01:37:795	> Event: AA 00 03 01 0C 00 F0 
+23:01:37:807	< Command: AA 00 02 14 01 E9 
+Device has no A2DP link.
+23:01:37:807	> Event: AA 00 03 01 08 00 F4 
+23:01:37:811	< Command: AA 00 02 14 01 E9 
+Device has no HF link
+23:01:37:811	> Event: AA 00 03 01 07 00 F5 
+23:01:37:888	< Command: AA 00 02 14 24 C6 
+
+23:01:37:888	> Event: AA 00 03 24 1F 00 BA 
+23:01:59:451	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+23:01:59:451	> Event: AA 00 03 30 00 00 CD 
+23:01:59:455	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:01:59:455	> Event: AA 00 03 2D 00 01 CF 
+23:01:59:460	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+23:01:59:460	> Event: AA 00 03 0D 01 00 EF 
+23:02:00:401	< Command: AA 00 02 14 0D DD 
+23:02:13:395	< Command: AA 00 03 02 00 51 AA 
+23:02:13:395	< Command: AA 00 03 02 00 52 A9 
+Command Complete.
+23:02:13:411	> Event: AA 00 03 00 02 00 FB 
+23:02:13:411	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:02:13:411	> Event: AA 00 03 2D 00 07 C9 
+23:02:13:415	< Command: AA 00 02 14 01 E9 
+Power on device.
+23:02:13:415	> Event: AA 00 03 01 02 00 FA 
+23:02:13:419	< Command: AA 00 02 14 01 E9 
+Device under standby mode.
+23:02:13:420	> Event: AA 00 03 01 0F 00 ED 
+23:02:13:423	< Command: AA 00 02 14 32 B8 
+LE Advertising command success.
+23:02:13:423	> Event: AA 00 03 32 01 00 CA 
+23:02:14:223	< Command: AA 00 02 14 24 C6 
+
+23:02:14:223	> Event: AA 00 03 24 1E 00 BB 
+23:02:14:431	< Command: AA 00 02 14 23 C7 
+
+23:02:14:431	> Event: AA 00 03 23 00 00 DA 
+23:02:15:730	< Command: AA 00 02 14 09 E1 
+Maximum signal strength is 5[Remote device]
+23:02:15:730	> Event: AA 00 03 09 00 05 EF 
+23:02:15:738	< Command: AA 00 02 14 06 E4 
+Maximum battery level is 5.[Remote Device]
+23:02:15:738	> Event: AA 00 03 06 00 05 F2 
+23:02:15:754	< Command: AA 00 02 14 0A E0 
+Signal strength is normal.
+23:02:15:755	> Event: AA 00 03 0A 00 03 F0 
+23:02:15:787	< Command: AA 00 02 14 08 E2 
+No Roaming.
+23:02:15:787	> Event: AA 00 03 08 00 00 F5 
+23:02:15:791	< Command: AA 00 02 14 07 E3 
+Battery is normal.
+23:02:15:793	> Event: AA 00 03 07 00 02 F4 
+23:02:15:800	< Command: AA 00 02 14 0B DF 
+Service is avaliable.
+23:02:15:800	> Event: AA 00 03 0B 00 01 F1 
+23:02:15:804	< Command: AA 00 02 14 01 E9 
+23:02:15:806	< Command: AA 00 03 16 00 00 E7 
+23:02:15:806	< Command: AA 00 03 16 00 00 E7 
+Device has a HF link
+23:02:15:806	> Event: AA 00 04 01 05 00 01 F5 
+23:02:15:808	< Command: AA 00 02 14 0F DB 
+Voice Gain Level : 12[BTM]
+23:02:15:808	> Event: AA 00 03 0F 00 0C E2 
+Command Complete.
+23:02:15:812	> Event: AA 00 03 00 16 00 E7 
+23:02:15:832	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+23:02:15:837	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+23:02:16:778	< Command: AA 00 02 14 01 E9 
+23:02:16:779	< Command: AA 00 03 16 00 00 E7 
+23:02:16:779	< Command: AA 00 03 16 00 00 E7 
+Device has an A2DP link.
+23:02:16:779	> Event: AA 00 03 01 06 00 F6 
+Command Complete.
+23:02:16:794	> Event: AA 00 03 00 16 00 E7 
+23:02:16:803	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:02:16:803	> Event: AA 00 03 2D 00 07 C9 
+23:02:16:811	< Command: AA 00 02 14 17 D3 
+Remote device name : prod-Mobile
+23:02:16:816	> Event: AA 00 0F 17 00 00 70 72 6F 64 2D 4D 6F 62 69 6C 
+65 00 A0 
+23:02:17:249	< Command: AA 00 02 14 24 C6 
+
+23:02:17:249	> Event: AA 00 03 24 1B 00 BE 
+23:02:17:614	< Command: AA 00 02 14 17 D3 
+CODEC type:SBC
+23:02:17:614	> Event: AA 00 04 17 00 06 00 DF 
+23:02:19:335	< Command: AA 00 02 14 01 E9 
+Device has an AVRCP link
+23:02:19:335	> Event: AA 00 03 01 0B 00 F1 
+23:02:19:347	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+23:02:19:347	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+23:02:19:396	< Command: AA 00 02 14 17 D3 
+23:02:19:429	< Command: AA 00 02 14 29 C1 
+23:02:26:990	< Command: AA 00 03 04 00 05 F4 
+Command Complete.
+23:02:27:007	> Event: AA 00 03 00 04 00 F9 
+23:02:28:920	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+23:02:28:920	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+23:02:29:424	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+23:02:29:424	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+00 DC 
+23:02:29:432	< Command: AA 00 02 14 1A D0 
+Current Playback Status : STOPPED.
+
+23:02:29:432	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+00 DE 
+23:02:29:440	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+23:02:29:440	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+23:02:29:465	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+23:02:29:465	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+23:02:29:469	< Command: AA 00 02 14 2D BD 
+23:02:29:477	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+23:02:29:477	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+23:02:29:649	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+23:02:29:649	> Event: AA 00 0E 1A 00 0D 48 00 00 19 58 31 00 02 00 01 
+01 DD 
+23:02:29:666	< Command: AA 00 02 14 1A D0 
+Current Playback Status : PLAYING.
+
+23:02:29:666	> Event: AA 00 0E 1A 00 0F 48 00 00 19 58 31 00 02 00 01 
+01 DB 
+23:02:29:670	< Command: AA 00 02 14 10 DA 
+EQ mode : EQ mode : off[BTM]
+23:02:29:670	> Event: AA 00 03 10 00 00 ED 
+23:02:29:674	< Command: AA 00 02 14 1B CF 
+A2DP CODEC start.
+23:02:29:674	> Event: AA 00 03 1B 04 01 DD 
+23:02:29:928	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:29:943	> Event: AA 00 03 00 23 00 DA 
+23:02:30:110	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:30:123	> Event: AA 00 03 00 23 00 DA 
+23:02:30:314	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:30:328	> Event: AA 00 03 00 23 00 DA 
+23:02:30:506	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:30:525	> Event: AA 00 03 00 23 00 DA 
+23:02:30:674	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:30:689	> Event: AA 00 03 00 23 00 DA 
+23:02:30:842	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:30:857	> Event: AA 00 03 00 23 00 DA 
+23:02:31:010	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:31:029	> Event: AA 00 03 00 23 00 DA 
+23:02:31:190	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:31:205	> Event: AA 00 03 00 23 00 DA 
+23:02:31:370	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:31:386	> Event: AA 00 03 00 23 00 DA 
+23:02:31:550	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:31:566	> Event: AA 00 03 00 23 00 DA 
+23:02:31:716	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:31:733	> Event: AA 00 03 00 23 00 DA 
+23:02:31:762	< Command: AA 00 02 14 24 C6 
+
+23:02:31:762	> Event: AA 00 03 24 0C 00 CD 
+23:02:31:886	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:31:901	> Event: AA 00 03 00 23 00 DA 
+23:02:32:078	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:32:094	> Event: AA 00 03 00 23 00 DA 
+23:02:32:155	< Command: AA 00 02 14 24 C6 
+
+23:02:32:155	> Event: AA 00 03 24 0C 00 CD 
+23:02:32:234	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:32:249	> Event: AA 00 03 00 23 00 DA 
+23:02:32:401	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:32:418	> Event: AA 00 03 00 23 00 DA 
+23:02:32:549	< Command: AA 00 02 14 24 C6 
+
+23:02:32:549	> Event: AA 00 03 24 0C 00 CD 
+23:02:32:572	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:32:586	> Event: AA 00 03 00 23 00 DA 
+23:02:32:738	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:32:754	> Event: AA 00 03 00 23 00 DA 
+23:02:32:894	< Command: AA 00 07 23 00 01 01 FF FF FF D7 
+Command Complete.
+23:02:32:909	> Event: AA 00 03 00 23 00 DA 
+23:02:32:942	< Command: AA 00 02 14 24 C6 
+
+23:02:32:942	> Event: AA 00 03 24 0C 00 CD 
+23:02:33:347	< Command: AA 00 02 14 24 C6 
+
+23:02:33:347	> Event: AA 00 03 24 0C 00 CD 
+23:02:33:740	< Command: AA 00 02 14 24 C6 
+
+23:02:33:740	> Event: AA 00 03 24 0C 00 CD 
+23:02:34:134	< Command: AA 00 02 14 24 C6 
+
+23:02:34:134	> Event: AA 00 03 24 0C 00 CD 
+23:02:34:527	< Command: AA 00 02 14 24 C6 
+
+23:02:34:527	> Event: AA 00 03 24 0C 00 CD 
+23:02:59:616	< Command: AA 00 02 14 0D DD 
+Charging error.[BTM]
+23:02:59:617	> Event: AA 00 03 0D 03 00 ED 
+23:04:13:440	< Command: AA 00 02 14 30 BA 
+BTM initial complete.
+23:04:13:440	> Event: AA 00 03 30 00 00 CD 
+23:04:13:444	< Command: AA 00 02 14 2D BD 
+8KHz sample rate.
+23:04:13:444	> Event: AA 00 03 2D 00 01 CF 
+23:04:13:448	< Command: AA 00 02 14 0D DD 
+Charging.[BTM]
+23:04:13:448	> Event: AA 00 03 0D 01 00 EF 
+23:04:14:386	< Command: AA 00 02 14 0D DD 
