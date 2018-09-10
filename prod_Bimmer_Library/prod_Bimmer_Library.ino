@@ -23,9 +23,6 @@ byte rtCount = 0;
 bm64 BM64;
 ibus Ibus;
 
-
-//########################################################################
-
 void setup() {
 
   debugSerial.begin(115200);
@@ -63,8 +60,6 @@ void setup() {
     }
   }*/
 }
-
-//########################################################################
 
 void loop() {
   if (!Ibus.checkIbus()) {
@@ -124,7 +119,6 @@ void btMessageHandler() {
       break;
 
     case 0x1A:
-      break;
 
     case 0x1B:
       switch(BM64.InPacket.Data[1]) {
@@ -254,9 +248,6 @@ void ibusMessageHandler() {
             ibusDump();
           }
         }
-      } else {
-        debugSerial.print("Unknown Command  : ");
-        ibusDump();
       }
     break;
     case 0x80: // ####################################### Source = Ignition
