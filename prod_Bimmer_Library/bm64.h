@@ -11,8 +11,7 @@ struct BM64Packet {
     byte Checksum;
 };
 
-class bm64
-{
+class bm64 {
   public:
     bm64();
     byte checkbtSerial();
@@ -20,7 +19,7 @@ class bm64
     void Debug();
     struct BM64Packet InPacket;
     struct BM64Packet OutPacket;
-    
+
   private:
     byte getChecksum(bool io);
     void Reset();
