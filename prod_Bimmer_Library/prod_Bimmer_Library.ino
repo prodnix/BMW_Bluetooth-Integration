@@ -1,6 +1,6 @@
 #include "ibus.h"
 #include "bm64.h"
-#include "data_store.h"
+#include "bt_data_store.h"
 #include "bt_commands.h"
 #include "ibus_commands.h"
 
@@ -177,13 +177,11 @@ void ibusMessageHandler() {
           if (Ibus.InPacket.Data[0] == 0x3B) {
             switch (Ibus.InPacket.Data[1]) {
               case 0x01:
-              debugSerial.println(F("MFL Up Pressed"));
               btSerial.write(NEXT_SONG, sizeof(NEXT_SONG));
               break;
               case 0x21:
               break;
               case 0x08:
-              debugSerial.println(F("MFL Down Pressed"));
               btSerial.write(PREV_SONG, sizeof(PREV_SONG));
               break;
               case 0x28:
@@ -201,10 +199,7 @@ void ibusMessageHandler() {
           switch(Ibus.InPacket.Data[0]) {
             case 0x01:
             if (rtCount > 2) {
-              debugSerial.println(F("R/T Pressed"));
               btSerial.write(PLAY_PAUSE, sizeof(PLAY_PAUSE));
-              //btSerial.write(A2DP_FULL_VOL, 11);
-              ibusSerial.write(CLOWN_FLASH, 7);
             } else {
               rtCount++;
             }
@@ -218,7 +213,6 @@ void ibusMessageHandler() {
             break;
             case 0x3B:
             if (Ibus.InPacket.Data[1] == 0x80) {
-              debugSerial.println(F("MFL Voice Pressed"));
               btSerial.write(ASSISTANT, sizeof(ASSISTANT));
             } else {
               //Voice Release
@@ -244,8 +238,6 @@ void ibusMessageHandler() {
             btSerial.write(PAIR_LAST_DEVICE, sizeof(PAIR_LAST_DEVICE));
           }
           else {
-            debugSerial.print("Unknown Key In/Out Command : ");
-            ibusDump();
           }
         }
       }
@@ -262,32 +254,10 @@ void ibusMessageHandler() {
               break;
               case 0x04:  // Ignition pos2
               break;
-              default:
-                debugSerial.print("Unknown Ignition Command : ");
-                ibusDump();
             }
         }
       } else {
-        debugSerial.print("Unknown Command  : ");
-        ibusDump();
       }
     break;
-
-    default:
-      debugSerial.print("Disregarded Message :");
-      ibusDump();
   }
-}
-
-void ibusDump() {
-  debugSerial.print("Source:");
-  debugSerial.print(Ibus.InPacket.Source, HEX);
-  debugSerial.print(" Destination:");
-  debugSerial.print(Ibus.InPacket.Destination, HEX);
-  debugSerial.print("  Data:");
-  for (int i = 0; i < Ibus.InPacket.Length; i++) {
-    debugSerial.print(Ibus.InPacket.Data[i], HEX);
-    debugSerial.print(":");
-  }
-  debugSerial.println();
 }

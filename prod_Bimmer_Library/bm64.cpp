@@ -1,5 +1,6 @@
 #include "Arduino.h"
 #include "bm64.h"
+#include "bt_data_store.h"
 
 #define debugSerial Serial
 #define btSerial    Serial1

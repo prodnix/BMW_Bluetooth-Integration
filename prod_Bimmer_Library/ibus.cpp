@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include "ibus.h"
-
+#include "ibus_data_store.h"
 #define debugSerial Serial
 #define ibusSerial  Serial2
 
@@ -19,6 +19,7 @@ byte ibus::checkIbus() {
       }
       InPacket.Checksum = ibusSerial.read();
       if (getChecksum(1) == InPacket.Checksum) {
+        Dump();
         return(0);
       }
       else {
@@ -50,4 +51,17 @@ byte ibus::getChecksum(bool io) {
   } else {
 
   }
+}
+
+void ibus::Dump() {
+  debugSerial.print(devices[InPacket.Source]);
+  debugSerial.print(" > ");
+  debugSerial.print(devices[InPacket.Destination]);
+  debugSerial.print(" : ");
+  debugSerial.print(messages[InPacket.Data[0]]);
+  for (int i = 1; i < InPacket.Length; i++) {
+    debugSerial.print(InPacket.Data[i], HEX);
+    debugSerial.print(":");
+  }
+  debugSerial.println();
 }

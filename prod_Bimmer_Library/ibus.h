@@ -16,10 +16,11 @@ class ibus
   public:
     ibus();
     byte checkIbus();
+    void Dump();
     struct IbusPacket InPacket;
     struct IbusPacket OutPacket;
     //void sendIbusCommand(const byte message[], byte size);
-    
+
   private:
   byte getChecksum(bool io);
 };
