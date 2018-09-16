@@ -55,7 +55,6 @@ byte bm64::checkbtSerial() {
   }
 }
 
-
 byte bm64::getChecksum(bool io) {
   if (io == 1){
     byte SUM = InPacket.Length;

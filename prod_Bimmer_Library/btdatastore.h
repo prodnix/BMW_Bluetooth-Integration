@@ -1,3 +1,7 @@
+#ifndef bt_data_store_h
+#define bt_data_store_h
+#include "Arduino.h"
+
 const char* ACK_RESPONSE [6] PROGMEM = {
   "Command complete" , "Command disallow" , "Unknown command" , "Parameters error" , "BTM is busy" , "BTM memory is full" };
 
@@ -22,3 +26,5 @@ const char* CHARGING_STATUS [5] PROGMEM = {
 
 const char* AT_CMD_RSP [3] PROGMEM = {
   "AG response OK" , "AG response ERROR" , "No response from AG" };
+
+#endif

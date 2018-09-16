@@ -1,3 +1,7 @@
+#ifndef ibus_data_store_h
+#define ibus_data_store_h
+#include "Arduino.h"
+
 const char* devices[] = {
         "Body module",
         "0x01",
@@ -515,3 +519,4 @@ const char* devices[] = {
             "0xFE",
             "0xFF"
             };
+#endif

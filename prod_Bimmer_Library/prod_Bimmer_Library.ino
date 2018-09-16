@@ -1,6 +1,7 @@
 #include "ibus.h"
 #include "bm64.h"
 #include "bt_data_store.h"
+#include "ibus_data_store.h"
 #include "bt_commands.h"
 #include "ibus_commands.h"
 

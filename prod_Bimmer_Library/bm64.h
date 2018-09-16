@@ -9,6 +9,7 @@ struct BM64Packet {
     unsigned int Length;
     byte Data[250];
     byte Checksum;
+
 };
 
 class bm64 {
